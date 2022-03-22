@@ -1,0 +1,76 @@
+local LoadTalk = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Alex = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local Era = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+
+--Properties:
+
+LoadTalk.Name = "LoadTalk"
+LoadTalk.Parent = game.CoreGui
+LoadTalk.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = LoadTalk
+Frame.AnchorPoint = Vector2.new(0.5, 0.5)
+Frame.BackgroundColor3 = Color3.fromRGB(49, 16, 115)
+Frame.Position = UDim2.new(0.499464095, 0, 0.498920083, 0)
+Frame.Size = UDim2.new(0, 250, 0, 100)
+
+UICorner.Parent = Frame
+
+Alex.Name = "Alex"
+Alex.Parent = Frame
+Alex.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Alex.Position = UDim2.new(0.0399999991, 0, 0.170000002, 0)
+Alex.Size = UDim2.new(0, 105, 0, 65)
+Alex.Font = Enum.Font.Kalam
+Alex.Text = "Alex"
+Alex.TextColor3 = Color3.fromRGB(255, 255, 255)
+Alex.TextScaled = true
+Alex.TextSize = 14.000
+Alex.TextWrapped = true
+
+UICorner_2.Parent = Alex
+
+Era.Name = "Era"
+Era.Parent = Frame
+Era.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Era.Position = UDim2.new(0.540000021, 0, 0.170000002, 0)
+Era.Size = UDim2.new(0, 105, 0, 65)
+Era.Font = Enum.Font.Kalam
+Era.Text = "Era"
+Era.TextColor3 = Color3.fromRGB(255, 255, 255)
+Era.TextScaled = true
+Era.TextSize = 14.000
+Era.TextWrapped = true
+
+UICorner_3.Parent = Era
+
+-- Scripts:
+
+local function ABYIN_fake_script() -- Alex.Script 
+	local script = Instance.new('Script', Alex)
+
+	function lclick()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/oAlexanderr/Kohau/main/Alex'))()
+		wait(2)
+		game.CoreGui.LoadTalk:Destroy()
+	end
+	
+	script.Parent.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(ABYIN_fake_script)()
+local function CQGJXJ_fake_script() -- Era.Script 
+	local script = Instance.new('Script', Era)
+
+	function lclick()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/oAlexanderr/Kohau/main/Era'))()
+		wait(2)
+		game.CoreGui.LoadTalk:Destroy()
+	end
+	
+	script.Parent.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(CQGJXJ_fake_script)()
