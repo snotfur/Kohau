@@ -79,7 +79,7 @@ local UICorner_36 = Instance.new("UICorner")
 --Properties:
 
 Main.Name = "Main"
-Main.Parent = game.CoreGui
+Main.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 Main.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 Main.ResetOnSpawn = false
 
@@ -699,7 +699,7 @@ UICorner_36.Parent = Right
 
 -- Scripts:
 
-local function YKHNAB_fake_script() -- Bill.Script 
+local function XCUW_fake_script() -- Bill.Script 
 	local script = Instance.new('Script', Bill)
 
 	function lclick()
@@ -709,8 +709,8 @@ local function YKHNAB_fake_script() -- Bill.Script
 	script.Parent.MouseButton1Click:Connect(lclick)
 	
 end
-coroutine.wrap(YKHNAB_fake_script)()
-local function OCXNUID_fake_script() -- Night.Script 
+coroutine.wrap(XCUW_fake_script)()
+local function ODBTBPQ_fake_script() -- Night.Script 
 	local script = Instance.new('Script', Night)
 
 	function lclick()
@@ -733,8 +733,8 @@ local function OCXNUID_fake_script() -- Night.Script
 	
 	
 end
-coroutine.wrap(OCXNUID_fake_script)()
-local function WWDG_fake_script() -- Clear.Script 
+coroutine.wrap(ODBTBPQ_fake_script)()
+local function NMUNOOX_fake_script() -- Clear.Script 
 	local script = Instance.new('Script', Clear)
 
 	function lclick()
@@ -745,8 +745,8 @@ local function WWDG_fake_script() -- Clear.Script
 	
 	
 end
-coroutine.wrap(WWDG_fake_script)()
-local function ZXEKA_fake_script() -- FishBux.Script 
+coroutine.wrap(NMUNOOX_fake_script)()
+local function EJTLFZO_fake_script() -- FishBux.Script 
 	local script = Instance.new('Script', FishBux)
 
 	function lclick()
@@ -795,8 +795,8 @@ local function ZXEKA_fake_script() -- FishBux.Script
 	
 	
 end
-coroutine.wrap(ZXEKA_fake_script)()
-local function IMBTKR_fake_script() -- NoUni.Script 
+coroutine.wrap(EJTLFZO_fake_script)()
+local function XBGVKA_fake_script() -- NoUni.Script 
 	local script = Instance.new('Script', NoUni)
 
 	function lclick()
@@ -807,14 +807,14 @@ local function IMBTKR_fake_script() -- NoUni.Script
 	
 	
 end
-coroutine.wrap(IMBTKR_fake_script)()
+coroutine.wrap(XBGVKA_fake_script)()
 -- None.Script is disabled.
-local function KMNC_fake_script() -- Intro.Script 
+local function AZNQHCI_fake_script() -- Intro.Script 
 	local script = Instance.new('Script', Intro)
 
 	function lclick()
 		local args = {
-			[1] = "Hello, and welcome to Kohaú. My name is Kenny, and I will be serving you today. How many people are in your party?",
+			[1] = "Hello, and welcome to Kohaú! My name is Lex, and I will be serving you today. How many people will be accommodating you today?",
 			[2] = "All"
 		}
 	
@@ -823,8 +823,8 @@ local function KMNC_fake_script() -- Intro.Script
 	
 	script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(KMNC_fake_script)()
-local function HOYUM_fake_script() -- Floor.Script 
+coroutine.wrap(AZNQHCI_fake_script)()
+local function BMMAHF_fake_script() -- Floor.Script 
 	local script = Instance.new('Script', Floor)
 
 	function lclick()
@@ -838,8 +838,8 @@ local function HOYUM_fake_script() -- Floor.Script
 	
 	script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(HOYUM_fake_script)()
-local function JVRS_fake_script() -- TableType.Script 
+coroutine.wrap(BMMAHF_fake_script)()
+local function AHCR_fake_script() -- TableType.Script 
 	local script = Instance.new('Script', TableType)
 
 	function lclick()
@@ -853,8 +853,8 @@ local function JVRS_fake_script() -- TableType.Script
 	
 	script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(JVRS_fake_script)()
-local function GFTCAU_fake_script() -- Outro.Script 
+coroutine.wrap(AHCR_fake_script)()
+local function DPEDWW_fake_script() -- Outro.Script 
 	local script = Instance.new('Script', Outro)
 
 	function lclick()
@@ -868,8 +868,8 @@ local function GFTCAU_fake_script() -- Outro.Script
 	
 	script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(GFTCAU_fake_script)()
-local function YSUESJ_fake_script() -- Follow.Script 
+coroutine.wrap(DPEDWW_fake_script)()
+local function HOVRDM_fake_script() -- Follow.Script 
 	local script = Instance.new('Script', Follow)
 
 	function lclick()
@@ -883,8 +883,8 @@ local function YSUESJ_fake_script() -- Follow.Script
 	
 	script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(YSUESJ_fake_script)()
-local function ZFXH_fake_script() -- Alright.Script 
+coroutine.wrap(HOVRDM_fake_script)()
+local function IYPAT_fake_script() -- Alright.Script 
 	local script = Instance.new('Script', Alright)
 
 	function lclick()
@@ -898,8 +898,8 @@ local function ZFXH_fake_script() -- Alright.Script
 	
 	script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(ZFXH_fake_script)()
-local function ISJETI_fake_script() -- OneMoment.Script 
+coroutine.wrap(IYPAT_fake_script)()
+local function YEAMRFL_fake_script() -- OneMoment.Script 
 	local script = Instance.new('Script', OneMoment)
 
 	function lclick()
@@ -913,8 +913,8 @@ local function ISJETI_fake_script() -- OneMoment.Script
 	
 	script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(ISJETI_fake_script)()
-local function RJQE_fake_script() -- Menu.LocalScript 
+coroutine.wrap(YEAMRFL_fake_script)()
+local function YVMEMF_fake_script() -- Menu.LocalScript 
 	local script = Instance.new('LocalScript', Menu)
 
 	function lclick()
@@ -928,8 +928,8 @@ local function RJQE_fake_script() -- Menu.LocalScript
 	
 	script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(RJQE_fake_script)()
-local function TBWI_fake_script() -- Welcome.Script 
+coroutine.wrap(YVMEMF_fake_script)()
+local function JUXR_fake_script() -- Welcome.Script 
 	local script = Instance.new('Script', Welcome)
 
 	function lclick()
@@ -943,8 +943,8 @@ local function TBWI_fake_script() -- Welcome.Script
 	
 	script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(TBWI_fake_script)()
-local function WUEVFIV_fake_script() -- TipMeNow.Script 
+coroutine.wrap(JUXR_fake_script)()
+local function ZHEU_fake_script() -- TipMeNow.Script 
 	local script = Instance.new('Script', TipMeNow)
 
 	function lclick()
@@ -958,8 +958,8 @@ local function WUEVFIV_fake_script() -- TipMeNow.Script
 	
 	script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(WUEVFIV_fake_script)()
-local function IGFO_fake_script() -- OutroI.Script 
+coroutine.wrap(ZHEU_fake_script)()
+local function URTPD_fake_script() -- OutroI.Script 
 	local script = Instance.new('Script', OutroI)
 
 	function lclick()
@@ -973,8 +973,8 @@ local function IGFO_fake_script() -- OutroI.Script
 	
 	script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(IGFO_fake_script)()
-local function VJQC_fake_script() -- MovingOn.Script 
+coroutine.wrap(URTPD_fake_script)()
+local function WIOAR_fake_script() -- MovingOn.Script 
 	local script = Instance.new('Script', MovingOn)
 
 	function lclick()
@@ -988,8 +988,8 @@ local function VJQC_fake_script() -- MovingOn.Script
 	
 	script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(VJQC_fake_script)()
-local function SOAP_fake_script() -- More.Script 
+coroutine.wrap(WIOAR_fake_script)()
+local function GGQEV_fake_script() -- More.Script 
 	local script = Instance.new('Script', More)
 
 	print("Hello world!")
@@ -1004,8 +1004,8 @@ local function SOAP_fake_script() -- More.Script
 	
 	script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(SOAP_fake_script)()
-local function EECPO_fake_script() -- ExcellentChoice.Script 
+coroutine.wrap(GGQEV_fake_script)()
+local function ZSWBNJH_fake_script() -- ExcellentChoice.Script 
 	local script = Instance.new('Script', ExcellentChoice)
 
 	function lclick()
@@ -1019,8 +1019,8 @@ local function EECPO_fake_script() -- ExcellentChoice.Script
 	
 	script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(EECPO_fake_script)()
-local function NFQR_fake_script() -- Cummingrightup.Script 
+coroutine.wrap(ZSWBNJH_fake_script)()
+local function TNBDHQ_fake_script() -- Cummingrightup.Script 
 	local script = Instance.new('Script', Cummingrightup)
 
 	function lclick()
@@ -1034,8 +1034,8 @@ local function NFQR_fake_script() -- Cummingrightup.Script
 	
 	script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(NFQR_fake_script)()
-local function RBUHPX_fake_script() -- Okay.Script 
+coroutine.wrap(TNBDHQ_fake_script)()
+local function UQYNE_fake_script() -- Okay.Script 
 	local script = Instance.new('Script', Okay)
 
 	function lclick()
@@ -1059,8 +1059,8 @@ local function RBUHPX_fake_script() -- Okay.Script
 	script.Parent.MouseButton1Click:Connect(lclick)
 	script.Parent.MouseButton2Click:Connect(rclick)
 end
-coroutine.wrap(RBUHPX_fake_script)()
-local function NQLP_fake_script() -- Sure.Script 
+coroutine.wrap(UQYNE_fake_script)()
+local function ISNSFUP_fake_script() -- Sure.Script 
 	local script = Instance.new('Script', Sure)
 
 	function lclick()
@@ -1084,8 +1084,8 @@ local function NQLP_fake_script() -- Sure.Script
 	script.Parent.MouseButton1Click:Connect(lclick)
 	script.Parent.MouseButton2Click:Connect(rclick)
 end
-coroutine.wrap(NQLP_fake_script)()
-local function UNJN_fake_script() -- Drinks.Script 
+coroutine.wrap(ISNSFUP_fake_script)()
+local function MIQO_fake_script() -- Drinks.Script 
 	local script = Instance.new('Script', Drinks)
 
 	function lclick()
@@ -1099,8 +1099,8 @@ local function UNJN_fake_script() -- Drinks.Script
 	
 	script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(UNJN_fake_script)()
-local function BELU_fake_script() -- Appetizers.Script 
+coroutine.wrap(MIQO_fake_script)()
+local function NVIXO_fake_script() -- Appetizers.Script 
 	local script = Instance.new('Script', Appetizers)
 
 	function lclick()
@@ -1115,8 +1115,8 @@ local function BELU_fake_script() -- Appetizers.Script
 	script.Parent.MouseButton1Click:Connect(lclick)
 	
 end
-coroutine.wrap(BELU_fake_script)()
-local function PRAKCD_fake_script() -- Left.LocalScript 
+coroutine.wrap(NVIXO_fake_script)()
+local function TETQWX_fake_script() -- Left.LocalScript 
 	local script = Instance.new('LocalScript', Left)
 
 	local Left = script.Parent
@@ -1137,8 +1137,8 @@ local function PRAKCD_fake_script() -- Left.LocalScript
 	
 	Left.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(PRAKCD_fake_script)()
-local function IJHZPZZ_fake_script() -- Right.LocalScript 
+coroutine.wrap(TETQWX_fake_script)()
+local function MXKWILT_fake_script() -- Right.LocalScript 
 	local script = Instance.new('LocalScript', Right)
 
 	local Right = script.Parent
@@ -1159,4 +1159,4 @@ local function IJHZPZZ_fake_script() -- Right.LocalScript
 	
 	Right.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(IJHZPZZ_fake_script)()
+coroutine.wrap(MXKWILT_fake_script)()
