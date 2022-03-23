@@ -55,7 +55,7 @@ local function ABYIN_fake_script() -- Alex.Script
 
 	function lclick()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/oAlexanderr/Kohau/main/Alex'))()
-		wait(2)
+		wait(.5)
 		game.CoreGui.LoadTalk:Destroy()
 	end
 	
@@ -67,7 +67,7 @@ local function CQGJXJ_fake_script() -- Era.Script
 
 	function lclick()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/oAlexanderr/Kohau/main/Era'))()
-		wait(2)
+		wait(.5)
 		game.CoreGui.LoadTalk:Destroy()
 	end
 	
