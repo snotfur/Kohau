@@ -12,11 +12,11 @@ local Night = Instance.new("TextButton")
 local UICorner_4 = Instance.new("UICorner")
 local Clear = Instance.new("TextButton")
 local UICorner_5 = Instance.new("UICorner")
-local FishBux = Instance.new("TextButton")
+local NotePadUnlock = Instance.new("TextButton")
 local UICorner_6 = Instance.new("UICorner")
 local NoUni = Instance.new("TextButton")
 local UICorner_7 = Instance.new("UICorner")
-local None = Instance.new("TextButton")
+local FishBux = Instance.new("TextButton")
 local UICorner_8 = Instance.new("UICorner")
 local MS = Instance.new("Frame")
 local UICorner_9 = Instance.new("UICorner")
@@ -42,39 +42,68 @@ local Alright = Instance.new("TextButton")
 local UICorner_19 = Instance.new("UICorner")
 local Speech = Instance.new("Frame")
 local UICorner_20 = Instance.new("UICorner")
-local Speech_2 = Instance.new("Frame")
-local UICorner_21 = Instance.new("UICorner")
 local OneMoment = Instance.new("TextButton")
-local UICorner_22 = Instance.new("UICorner")
+local UICorner_21 = Instance.new("UICorner")
 local Menu = Instance.new("TextButton")
-local UICorner_23 = Instance.new("UICorner")
+local UICorner_22 = Instance.new("UICorner")
 local Welcome = Instance.new("TextButton")
-local UICorner_24 = Instance.new("UICorner")
+local UICorner_23 = Instance.new("UICorner")
 local TipMeNow = Instance.new("TextButton")
-local UICorner_25 = Instance.new("UICorner")
+local UICorner_24 = Instance.new("UICorner")
 local OutroI = Instance.new("TextButton")
-local UICorner_26 = Instance.new("UICorner")
+local UICorner_25 = Instance.new("UICorner")
 local MovingOn = Instance.new("TextButton")
-local UICorner_27 = Instance.new("UICorner")
+local UICorner_26 = Instance.new("UICorner")
 local More = Instance.new("TextButton")
-local UICorner_28 = Instance.new("UICorner")
+local UICorner_27 = Instance.new("UICorner")
 local ExcellentChoice = Instance.new("TextButton")
-local UICorner_29 = Instance.new("UICorner")
+local UICorner_28 = Instance.new("UICorner")
 local Cummingrightup = Instance.new("TextButton")
-local UICorner_30 = Instance.new("UICorner")
+local UICorner_29 = Instance.new("UICorner")
 local Okay = Instance.new("TextButton")
-local UICorner_31 = Instance.new("UICorner")
+local UICorner_30 = Instance.new("UICorner")
 local Sure = Instance.new("TextButton")
-local UICorner_32 = Instance.new("UICorner")
+local UICorner_31 = Instance.new("UICorner")
 local Drinks = Instance.new("TextButton")
-local UICorner_33 = Instance.new("UICorner")
+local UICorner_32 = Instance.new("UICorner")
 local Appetizers = Instance.new("TextButton")
-local UICorner_34 = Instance.new("UICorner")
+local UICorner_33 = Instance.new("UICorner")
 local TextLabel_2 = Instance.new("TextLabel")
-local Left = Instance.new("TextButton")
+local SpeechLaybel = Instance.new("Frame")
+local UICorner_34 = Instance.new("UICorner")
+local SecondSpeech = Instance.new("Frame")
 local UICorner_35 = Instance.new("UICorner")
-local Right = Instance.new("TextButton")
+local SpeechLabel = Instance.new("Frame")
 local UICorner_36 = Instance.new("UICorner")
+local null = Instance.new("TextButton")
+local UICorner_37 = Instance.new("UICorner")
+local null_2 = Instance.new("TextButton")
+local UICorner_38 = Instance.new("UICorner")
+local null_3 = Instance.new("TextButton")
+local UICorner_39 = Instance.new("UICorner")
+local null_4 = Instance.new("TextButton")
+local UICorner_40 = Instance.new("UICorner")
+local null_5 = Instance.new("TextButton")
+local UICorner_41 = Instance.new("UICorner")
+local null_6 = Instance.new("TextButton")
+local UICorner_42 = Instance.new("UICorner")
+local null_7 = Instance.new("TextButton")
+local UICorner_43 = Instance.new("UICorner")
+local null_8 = Instance.new("TextButton")
+local UICorner_44 = Instance.new("UICorner")
+local null_9 = Instance.new("TextButton")
+local UICorner_45 = Instance.new("UICorner")
+local null_10 = Instance.new("TextButton")
+local UICorner_46 = Instance.new("UICorner")
+local null_11 = Instance.new("TextButton")
+local UICorner_47 = Instance.new("UICorner")
+local null_12 = Instance.new("TextButton")
+local UICorner_48 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local Left = Instance.new("TextButton")
+local UICorner_49 = Instance.new("UICorner")
+local Right = Instance.new("TextButton")
+local UICorner_50 = Instance.new("UICorner")
 
 --Properties:
 
@@ -122,7 +151,7 @@ TextLabel.Position = UDim2.new(0.5, 0, 0.0586666651, 0)
 TextLabel.Size = UDim2.new(0, 205, 0, 44)
 TextLabel.ZIndex = 3
 TextLabel.Font = Enum.Font.Kalam
-TextLabel.Text = "Settings"
+TextLabel.Text = "Options"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
@@ -188,26 +217,26 @@ Clear.TextWrapped = true
 UICorner_5.CornerRadius = UDim.new(0, 10)
 UICorner_5.Parent = Clear
 
-FishBux.Name = "FishBux"
-FishBux.Parent = Settings
-FishBux.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-FishBux.Position = UDim2.new(0.0585365854, 0, 0.434666634, 0)
-FishBux.Size = UDim2.new(0, 179, 0, 50)
-FishBux.ZIndex = 3
-FishBux.Font = Enum.Font.Kalam
-FishBux.Text = "Fishing"
-FishBux.TextColor3 = Color3.fromRGB(255, 255, 255)
-FishBux.TextScaled = true
-FishBux.TextSize = 14.000
-FishBux.TextWrapped = true
+NotePadUnlock.Name = "NotePadUnlock"
+NotePadUnlock.Parent = Settings
+NotePadUnlock.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+NotePadUnlock.Position = UDim2.new(0.0585365854, 0, 0.5946666, 0)
+NotePadUnlock.Size = UDim2.new(0, 179, 0, 50)
+NotePadUnlock.ZIndex = 3
+NotePadUnlock.Font = Enum.Font.Kalam
+NotePadUnlock.Text = "Notepad"
+NotePadUnlock.TextColor3 = Color3.fromRGB(255, 255, 255)
+NotePadUnlock.TextScaled = true
+NotePadUnlock.TextSize = 14.000
+NotePadUnlock.TextWrapped = true
 
 UICorner_6.CornerRadius = UDim.new(0, 10)
-UICorner_6.Parent = FishBux
+UICorner_6.Parent = NotePadUnlock
 
 NoUni.Name = "NoUni"
 NoUni.Parent = Settings
 NoUni.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-NoUni.Position = UDim2.new(0.0504927486, 0, 0.589333355, 0)
+NoUni.Position = UDim2.new(0.0602488443, 0, 0.434666693, 0)
 NoUni.Size = UDim2.new(0, 84, 0, 50)
 NoUni.ZIndex = 3
 NoUni.Font = Enum.Font.Kalam
@@ -220,21 +249,21 @@ NoUni.TextWrapped = true
 UICorner_7.CornerRadius = UDim.new(0, 10)
 UICorner_7.Parent = NoUni
 
-None.Name = "None"
-None.Parent = Settings
-None.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-None.Position = UDim2.new(0.518785417, 0, 0.589333355, 0)
-None.Size = UDim2.new(0, 84, 0, 50)
-None.ZIndex = 3
-None.Font = Enum.Font.Kalam
-None.Text = ""
-None.TextColor3 = Color3.fromRGB(255, 255, 255)
-None.TextScaled = true
-None.TextSize = 14.000
-None.TextWrapped = true
+FishBux.Name = "FishBux"
+FishBux.Parent = Settings
+FishBux.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+FishBux.Position = UDim2.new(0.518785417, 0, 0.434666693, 0)
+FishBux.Size = UDim2.new(0, 84, 0, 50)
+FishBux.ZIndex = 3
+FishBux.Font = Enum.Font.Kalam
+FishBux.Text = "Fishing"
+FishBux.TextColor3 = Color3.fromRGB(255, 255, 255)
+FishBux.TextScaled = true
+FishBux.TextSize = 14.000
+FishBux.TextWrapped = true
 
 UICorner_8.CornerRadius = UDim.new(0, 10)
-UICorner_8.Parent = None
+UICorner_8.Parent = FishBux
 
 MS.Name = "MS"
 MS.Parent = Pages
@@ -363,7 +392,7 @@ Version.Position = UDim2.new(0.0341463424, 0, 0.927999973, 0)
 Version.Size = UDim2.new(0, 29, 0, 35)
 Version.ZIndex = 4
 Version.Font = Enum.Font.Kalam
-Version.Text = "v 1.0"
+Version.Text = "v 1.1"
 Version.TextColor3 = Color3.fromRGB(255, 255, 255)
 Version.TextScaled = true
 Version.TextSize = 14.000
@@ -418,18 +447,6 @@ Speech.ZIndex = 2
 UICorner_20.CornerRadius = UDim.new(0, 10)
 UICorner_20.Parent = Speech
 
-Speech_2.Name = "Speech"
-Speech_2.Parent = Speech
-Speech_2.AnchorPoint = Vector2.new(0.5, 0.5)
-Speech_2.BackgroundColor3 = Color3.fromRGB(36, 12, 81)
-Speech_2.BackgroundTransparency = 0.300
-Speech_2.Position = UDim2.new(0.497999996, 0, 0.499000013, 0)
-Speech_2.Size = UDim2.new(0, 205, 0, 375)
-Speech_2.ZIndex = 2
-
-UICorner_21.CornerRadius = UDim.new(0, 10)
-UICorner_21.Parent = Speech_2
-
 OneMoment.Name = "OneMoment"
 OneMoment.Parent = Speech
 OneMoment.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -444,8 +461,8 @@ OneMoment.TextScaled = true
 OneMoment.TextSize = 14.000
 OneMoment.TextWrapped = true
 
-UICorner_22.CornerRadius = UDim.new(0, 10)
-UICorner_22.Parent = OneMoment
+UICorner_21.CornerRadius = UDim.new(0, 10)
+UICorner_21.Parent = OneMoment
 
 Menu.Name = "Menu"
 Menu.Parent = Speech
@@ -461,8 +478,8 @@ Menu.TextScaled = true
 Menu.TextSize = 14.000
 Menu.TextWrapped = true
 
-UICorner_23.CornerRadius = UDim.new(0, 10)
-UICorner_23.Parent = Menu
+UICorner_22.CornerRadius = UDim.new(0, 10)
+UICorner_22.Parent = Menu
 
 Welcome.Name = "Welcome"
 Welcome.Parent = Speech
@@ -478,8 +495,8 @@ Welcome.TextScaled = true
 Welcome.TextSize = 14.000
 Welcome.TextWrapped = true
 
-UICorner_24.CornerRadius = UDim.new(0, 10)
-UICorner_24.Parent = Welcome
+UICorner_23.CornerRadius = UDim.new(0, 10)
+UICorner_23.Parent = Welcome
 
 TipMeNow.Name = "TipMeNow"
 TipMeNow.Parent = Speech
@@ -495,8 +512,8 @@ TipMeNow.TextScaled = true
 TipMeNow.TextSize = 14.000
 TipMeNow.TextWrapped = true
 
-UICorner_25.CornerRadius = UDim.new(0, 10)
-UICorner_25.Parent = TipMeNow
+UICorner_24.CornerRadius = UDim.new(0, 10)
+UICorner_24.Parent = TipMeNow
 
 OutroI.Name = "OutroI"
 OutroI.Parent = Speech
@@ -512,8 +529,8 @@ OutroI.TextScaled = true
 OutroI.TextSize = 14.000
 OutroI.TextWrapped = true
 
-UICorner_26.CornerRadius = UDim.new(0, 10)
-UICorner_26.Parent = OutroI
+UICorner_25.CornerRadius = UDim.new(0, 10)
+UICorner_25.Parent = OutroI
 
 MovingOn.Name = "MovingOn"
 MovingOn.Parent = Speech
@@ -529,8 +546,8 @@ MovingOn.TextScaled = true
 MovingOn.TextSize = 14.000
 MovingOn.TextWrapped = true
 
-UICorner_27.CornerRadius = UDim.new(0, 10)
-UICorner_27.Parent = MovingOn
+UICorner_26.CornerRadius = UDim.new(0, 10)
+UICorner_26.Parent = MovingOn
 
 More.Name = "More"
 More.Parent = Speech
@@ -546,8 +563,8 @@ More.TextScaled = true
 More.TextSize = 14.000
 More.TextWrapped = true
 
-UICorner_28.CornerRadius = UDim.new(0, 10)
-UICorner_28.Parent = More
+UICorner_27.CornerRadius = UDim.new(0, 10)
+UICorner_27.Parent = More
 
 ExcellentChoice.Name = "ExcellentChoice"
 ExcellentChoice.Parent = Speech
@@ -563,8 +580,8 @@ ExcellentChoice.TextScaled = true
 ExcellentChoice.TextSize = 14.000
 ExcellentChoice.TextWrapped = true
 
-UICorner_29.CornerRadius = UDim.new(0, 10)
-UICorner_29.Parent = ExcellentChoice
+UICorner_28.CornerRadius = UDim.new(0, 10)
+UICorner_28.Parent = ExcellentChoice
 
 Cummingrightup.Name = "Cummingrightup"
 Cummingrightup.Parent = Speech
@@ -580,8 +597,8 @@ Cummingrightup.TextScaled = true
 Cummingrightup.TextSize = 14.000
 Cummingrightup.TextWrapped = true
 
-UICorner_30.CornerRadius = UDim.new(0, 10)
-UICorner_30.Parent = Cummingrightup
+UICorner_29.CornerRadius = UDim.new(0, 10)
+UICorner_29.Parent = Cummingrightup
 
 Okay.Name = "Okay"
 Okay.Parent = Speech
@@ -597,8 +614,8 @@ Okay.TextScaled = true
 Okay.TextSize = 14.000
 Okay.TextWrapped = true
 
-UICorner_31.CornerRadius = UDim.new(0, 10)
-UICorner_31.Parent = Okay
+UICorner_30.CornerRadius = UDim.new(0, 10)
+UICorner_30.Parent = Okay
 
 Sure.Name = "Sure"
 Sure.Parent = Speech
@@ -614,8 +631,8 @@ Sure.TextScaled = true
 Sure.TextSize = 14.000
 Sure.TextWrapped = true
 
-UICorner_32.CornerRadius = UDim.new(0, 10)
-UICorner_32.Parent = Sure
+UICorner_31.CornerRadius = UDim.new(0, 10)
+UICorner_31.Parent = Sure
 
 Drinks.Name = "Drinks"
 Drinks.Parent = Speech
@@ -631,8 +648,8 @@ Drinks.TextScaled = true
 Drinks.TextSize = 14.000
 Drinks.TextWrapped = true
 
-UICorner_33.CornerRadius = UDim.new(0, 10)
-UICorner_33.Parent = Drinks
+UICorner_32.CornerRadius = UDim.new(0, 10)
+UICorner_32.Parent = Drinks
 
 Appetizers.Name = "Appetizers"
 Appetizers.Parent = Speech
@@ -648,8 +665,8 @@ Appetizers.TextScaled = true
 Appetizers.TextSize = 14.000
 Appetizers.TextWrapped = true
 
-UICorner_34.CornerRadius = UDim.new(0, 10)
-UICorner_34.Parent = Appetizers
+UICorner_33.CornerRadius = UDim.new(0, 10)
+UICorner_33.Parent = Appetizers
 
 TextLabel_2.Parent = Speech
 TextLabel_2.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -665,6 +682,260 @@ TextLabel_2.TextScaled = true
 TextLabel_2.TextSize = 14.000
 TextLabel_2.TextWrapped = true
 
+SpeechLaybel.Name = "SpeechLaybel"
+SpeechLaybel.Parent = Speech
+SpeechLaybel.AnchorPoint = Vector2.new(0.5, 0.5)
+SpeechLaybel.BackgroundColor3 = Color3.fromRGB(36, 12, 81)
+SpeechLaybel.BackgroundTransparency = 0.300
+SpeechLaybel.Position = UDim2.new(0.497999996, 0, 0.499000013, 0)
+SpeechLaybel.Size = UDim2.new(0, 205, 0, 375)
+SpeechLaybel.ZIndex = 2
+
+UICorner_34.CornerRadius = UDim.new(0, 10)
+UICorner_34.Parent = SpeechLaybel
+
+SecondSpeech.Name = "SecondSpeech"
+SecondSpeech.Parent = Pages
+SecondSpeech.AnchorPoint = Vector2.new(0.5, 0.5)
+SecondSpeech.BackgroundColor3 = Color3.fromRGB(57, 19, 129)
+SecondSpeech.Position = UDim2.new(0.497999996, 0, 0.499000013, 0)
+SecondSpeech.Size = UDim2.new(0, 205, 0, 375)
+SecondSpeech.Visible = false
+SecondSpeech.ZIndex = 2
+
+UICorner_35.CornerRadius = UDim.new(0, 10)
+UICorner_35.Parent = SecondSpeech
+
+SpeechLabel.Name = "SpeechLabel"
+SpeechLabel.Parent = SecondSpeech
+SpeechLabel.AnchorPoint = Vector2.new(0.5, 0.5)
+SpeechLabel.BackgroundColor3 = Color3.fromRGB(36, 12, 81)
+SpeechLabel.BackgroundTransparency = 0.300
+SpeechLabel.Position = UDim2.new(0.497999996, 0, 0.499000013, 0)
+SpeechLabel.Size = UDim2.new(0, 205, 0, 375)
+SpeechLabel.ZIndex = 2
+
+UICorner_36.CornerRadius = UDim.new(0, 10)
+UICorner_36.Parent = SpeechLabel
+
+null.Name = "null"
+null.Parent = SecondSpeech
+null.AnchorPoint = Vector2.new(0.5, 0.5)
+null.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+null.Position = UDim2.new(0.187804908, 0, 0.106666744, 0)
+null.Size = UDim2.new(0, 55, 0, 50)
+null.ZIndex = 4
+null.Font = Enum.Font.Kalam
+null.Text = " "
+null.TextColor3 = Color3.fromRGB(255, 255, 255)
+null.TextScaled = true
+null.TextSize = 14.000
+null.TextWrapped = true
+
+UICorner_37.CornerRadius = UDim.new(0, 10)
+UICorner_37.Parent = null
+
+null_2.Name = "null"
+null_2.Parent = SecondSpeech
+null_2.AnchorPoint = Vector2.new(0.5, 0.5)
+null_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+null_2.Position = UDim2.new(0.645399451, 0, 0.106666751, 0)
+null_2.Size = UDim2.new(0, 115, 0, 50)
+null_2.ZIndex = 4
+null_2.Font = Enum.Font.Kalam
+null_2.Text = " "
+null_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+null_2.TextScaled = true
+null_2.TextSize = 14.000
+null_2.TextWrapped = true
+
+UICorner_38.CornerRadius = UDim.new(0, 10)
+UICorner_38.Parent = null_2
+
+null_3.Name = "null"
+null_3.Parent = SecondSpeech
+null_3.AnchorPoint = Vector2.new(0.5, 0.5)
+null_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+null_3.Position = UDim2.new(0.804878056, 0, 0.91200006, 0)
+null_3.Size = UDim2.new(0, 55, 0, 50)
+null_3.ZIndex = 4
+null_3.Font = Enum.Font.Kalam
+null_3.Text = " "
+null_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+null_3.TextScaled = true
+null_3.TextSize = 14.000
+null_3.TextWrapped = true
+
+UICorner_39.CornerRadius = UDim.new(0, 10)
+UICorner_39.Parent = null_3
+
+null_4.Name = "null"
+null_4.Parent = SecondSpeech
+null_4.AnchorPoint = Vector2.new(0.5, 0.5)
+null_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+null_4.Position = UDim2.new(0.34512195, 0, 0.91200006, 0)
+null_4.Size = UDim2.new(0, 117, 0, 50)
+null_4.ZIndex = 4
+null_4.Font = Enum.Font.Kalam
+null_4.Text = " "
+null_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+null_4.TextScaled = true
+null_4.TextSize = 14.000
+null_4.TextWrapped = true
+
+UICorner_40.CornerRadius = UDim.new(0, 10)
+UICorner_40.Parent = null_4
+
+null_5.Name = "null"
+null_5.Parent = SecondSpeech
+null_5.AnchorPoint = Vector2.new(0.5, 0.5)
+null_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+null_5.Position = UDim2.new(0.502439022, 0, 0.762666702, 0)
+null_5.Size = UDim2.new(0, 55, 0, 50)
+null_5.ZIndex = 4
+null_5.Font = Enum.Font.Kalam
+null_5.Text = " "
+null_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+null_5.TextScaled = true
+null_5.TextSize = 14.000
+null_5.TextWrapped = true
+
+UICorner_41.CornerRadius = UDim.new(0, 10)
+UICorner_41.Parent = null_5
+
+null_6.Name = "null"
+null_6.Parent = SecondSpeech
+null_6.AnchorPoint = Vector2.new(0.5, 0.5)
+null_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+null_6.Position = UDim2.new(0.192682952, 0, 0.762666702, 0)
+null_6.Size = UDim2.new(0, 55, 0, 50)
+null_6.ZIndex = 4
+null_6.Font = Enum.Font.Kalam
+null_6.Text = " "
+null_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+null_6.TextScaled = true
+null_6.TextSize = 14.000
+null_6.TextWrapped = true
+
+UICorner_42.CornerRadius = UDim.new(0, 10)
+UICorner_42.Parent = null_6
+
+null_7.Name = "null"
+null_7.Parent = SecondSpeech
+null_7.AnchorPoint = Vector2.new(0.5, 0.5)
+null_7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+null_7.Position = UDim2.new(0.804878056, 0, 0.762666702, 0)
+null_7.Size = UDim2.new(0, 55, 0, 50)
+null_7.ZIndex = 4
+null_7.Font = Enum.Font.Kalam
+null_7.Text = " "
+null_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+null_7.TextScaled = true
+null_7.TextSize = 14.000
+null_7.TextWrapped = true
+
+UICorner_43.CornerRadius = UDim.new(0, 10)
+UICorner_43.Parent = null_7
+
+null_8.Name = "null"
+null_8.Parent = SecondSpeech
+null_8.AnchorPoint = Vector2.new(0.5, 0.5)
+null_8.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+null_8.Position = UDim2.new(0.800000012, 0, 0.258666754, 0)
+null_8.Size = UDim2.new(0, 55, 0, 50)
+null_8.ZIndex = 4
+null_8.Font = Enum.Font.Kalam
+null_8.Text = " "
+null_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+null_8.TextScaled = true
+null_8.TextSize = 14.000
+null_8.TextWrapped = true
+
+UICorner_44.CornerRadius = UDim.new(0, 10)
+UICorner_44.Parent = null_8
+
+null_9.Name = "null"
+null_9.Parent = SecondSpeech
+null_9.AnchorPoint = Vector2.new(0.5, 0.5)
+null_9.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+null_9.Position = UDim2.new(0.497560978, 0, 0.258666754, 0)
+null_9.Size = UDim2.new(0, 55, 0, 50)
+null_9.ZIndex = 4
+null_9.Font = Enum.Font.Kalam
+null_9.Text = " "
+null_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+null_9.TextScaled = true
+null_9.TextSize = 14.000
+null_9.TextWrapped = true
+
+UICorner_45.CornerRadius = UDim.new(0, 10)
+UICorner_45.Parent = null_9
+
+null_10.Name = "null"
+null_10.Parent = SecondSpeech
+null_10.AnchorPoint = Vector2.new(0.5, 0.5)
+null_10.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+null_10.Position = UDim2.new(0.187804908, 0, 0.258666754, 0)
+null_10.Size = UDim2.new(0, 55, 0, 50)
+null_10.ZIndex = 4
+null_10.Font = Enum.Font.Kalam
+null_10.Text = " "
+null_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+null_10.TextScaled = true
+null_10.TextSize = 14.000
+null_10.TextWrapped = true
+
+UICorner_46.CornerRadius = UDim.new(0, 10)
+UICorner_46.Parent = null_10
+
+null_11.Name = "null"
+null_11.Parent = SecondSpeech
+null_11.AnchorPoint = Vector2.new(0.5, 0.5)
+null_11.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+null_11.Position = UDim2.new(0.494902521, 0, 0.408000082, 0)
+null_11.Size = UDim2.new(0, 180, 0, 50)
+null_11.ZIndex = 4
+null_11.Font = Enum.Font.Kalam
+null_11.Text = " "
+null_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+null_11.TextScaled = true
+null_11.TextSize = 14.000
+null_11.TextWrapped = true
+
+UICorner_47.CornerRadius = UDim.new(0, 10)
+UICorner_47.Parent = null_11
+
+null_12.Name = "null"
+null_12.Parent = SecondSpeech
+null_12.AnchorPoint = Vector2.new(0.5, 0.5)
+null_12.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+null_12.Position = UDim2.new(0.490024477, 0, 0.610666752, 0)
+null_12.Size = UDim2.new(0, 180, 0, 50)
+null_12.ZIndex = 4
+null_12.Font = Enum.Font.Kalam
+null_12.Text = " "
+null_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+null_12.TextScaled = true
+null_12.TextSize = 14.000
+null_12.TextWrapped = true
+
+UICorner_48.CornerRadius = UDim.new(0, 10)
+UICorner_48.Parent = null_12
+
+TextLabel_3.Parent = SecondSpeech
+TextLabel_3.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.493237913, 0, 0.509666741, 0)
+TextLabel_3.Size = UDim2.new(0, 178, 0, 25)
+TextLabel_3.ZIndex = 4
+TextLabel_3.Font = Enum.Font.Kalam
+TextLabel_3.Text = "Speech"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
 Left.Name = "Left"
 Left.Parent = Backing
 Left.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -678,8 +949,8 @@ Left.Text = ""
 Left.TextColor3 = Color3.fromRGB(0, 0, 0)
 Left.TextSize = 14.000
 
-UICorner_35.CornerRadius = UDim.new(0, 10)
-UICorner_35.Parent = Left
+UICorner_49.CornerRadius = UDim.new(0, 10)
+UICorner_49.Parent = Left
 
 Right.Name = "Right"
 Right.Parent = Backing
@@ -694,23 +965,37 @@ Right.Text = ""
 Right.TextColor3 = Color3.fromRGB(0, 0, 0)
 Right.TextSize = 14.000
 
-UICorner_36.CornerRadius = UDim.new(0, 10)
-UICorner_36.Parent = Right
+UICorner_50.CornerRadius = UDim.new(0, 10)
+UICorner_50.Parent = Right
 
 -- Scripts:
 
-local function YKHNAB_fake_script() -- Bill.Script 
+local function VEWEL_fake_script() -- Bill.Script 
 	local script = Instance.new('Script', Bill)
 
 	function lclick()
 		game.Workspace.Billboards:Destroy()
+	
+		game.Workspace.xC_alebs:Destroy()
+	
+		game.Workspace.RainingPointsBoard:Destroy()
+	
+		game.Workspace.TopDonator:Destroy()
+	
+		game.Workspace.Donation:Destroy()
+	
+		game.Workspace.CHCStatue:Destroy()
+		
+		game.Workspace.Points:Destroy()
+		
+		game.Workspace.DailyGoal.Container.SurfaceGui.DailyGoal.Title.TextLabel.Text = ("give us money pls")
 	end
 	
 	script.Parent.MouseButton1Click:Connect(lclick)
 	
 end
-coroutine.wrap(YKHNAB_fake_script)()
-local function OCXNUID_fake_script() -- Night.Script 
+coroutine.wrap(VEWEL_fake_script)()
+local function RWDAHLM_fake_script() -- Night.Script 
 	local script = Instance.new('Script', Night)
 
 	function lclick()
@@ -733,8 +1018,8 @@ local function OCXNUID_fake_script() -- Night.Script
 	
 	
 end
-coroutine.wrap(OCXNUID_fake_script)()
-local function WWDG_fake_script() -- Clear.Script 
+coroutine.wrap(RWDAHLM_fake_script)()
+local function FFSIY_fake_script() -- Clear.Script 
 	local script = Instance.new('Script', Clear)
 
 	function lclick()
@@ -745,8 +1030,34 @@ local function WWDG_fake_script() -- Clear.Script
 	
 	
 end
-coroutine.wrap(WWDG_fake_script)()
-local function ZXEKA_fake_script() -- FishBux.Script 
+coroutine.wrap(FFSIY_fake_script)()
+local function MOOQYC_fake_script() -- NotePadUnlock.Script 
+	local script = Instance.new('Script', NotePadUnlock)
+
+	local Notepad = game.Players.LocalPlayer.PlayerGui.ClientInterface.Notepad
+	
+	function lclick()
+		Notepad.Active = true
+		Notepad.Draggable = true
+		Notepad.Title.Text = ("order for fat bitch")
+	end
+	
+	script.Parent.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(MOOQYC_fake_script)()
+local function YUDNHV_fake_script() -- NoUni.Script 
+	local script = Instance.new('Script', NoUni)
+
+	function lclick()
+		game.Workspace["Employee Areas"]:Destroy()
+	end
+	
+	script.Parent.MouseButton1Click:Connect(lclick)
+	
+	
+end
+coroutine.wrap(YUDNHV_fake_script)()
+local function UYEJEP_fake_script() -- FishBux.Script 
 	local script = Instance.new('Script', FishBux)
 
 	function lclick()
@@ -795,21 +1106,8 @@ local function ZXEKA_fake_script() -- FishBux.Script
 	
 	
 end
-coroutine.wrap(ZXEKA_fake_script)()
-local function IMBTKR_fake_script() -- NoUni.Script 
-	local script = Instance.new('Script', NoUni)
-
-	function lclick()
-		game.Workspace["Employee Areas"]:Destroy()
-	end
-	
-	script.Parent.MouseButton1Click:Connect(lclick)
-	
-	
-end
-coroutine.wrap(IMBTKR_fake_script)()
--- None.Script is disabled.
-local function KMNC_fake_script() -- Intro.Script 
+coroutine.wrap(UYEJEP_fake_script)()
+local function KJRIHX_fake_script() -- Intro.Script 
 	local script = Instance.new('Script', Intro)
 
 	function lclick()
@@ -823,8 +1121,8 @@ local function KMNC_fake_script() -- Intro.Script
 	
 	script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(KMNC_fake_script)()
-local function HOYUM_fake_script() -- Floor.Script 
+coroutine.wrap(KJRIHX_fake_script)()
+local function NNCSAGB_fake_script() -- Floor.Script 
 	local script = Instance.new('Script', Floor)
 
 	function lclick()
@@ -838,8 +1136,8 @@ local function HOYUM_fake_script() -- Floor.Script
 	
 	script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(HOYUM_fake_script)()
-local function JVRS_fake_script() -- TableType.Script 
+coroutine.wrap(NNCSAGB_fake_script)()
+local function FOMXF_fake_script() -- TableType.Script 
 	local script = Instance.new('Script', TableType)
 
 	function lclick()
@@ -853,8 +1151,8 @@ local function JVRS_fake_script() -- TableType.Script
 	
 	script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(JVRS_fake_script)()
-local function GFTCAU_fake_script() -- Outro.Script 
+coroutine.wrap(FOMXF_fake_script)()
+local function XUEQPEL_fake_script() -- Outro.Script 
 	local script = Instance.new('Script', Outro)
 
 	function lclick()
@@ -868,8 +1166,8 @@ local function GFTCAU_fake_script() -- Outro.Script
 	
 	script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(GFTCAU_fake_script)()
-local function YSUESJ_fake_script() -- Follow.Script 
+coroutine.wrap(XUEQPEL_fake_script)()
+local function DGWJN_fake_script() -- Follow.Script 
 	local script = Instance.new('Script', Follow)
 
 	function lclick()
@@ -883,8 +1181,8 @@ local function YSUESJ_fake_script() -- Follow.Script
 	
 	script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(YSUESJ_fake_script)()
-local function ZFXH_fake_script() -- Alright.Script 
+coroutine.wrap(DGWJN_fake_script)()
+local function CTAWTI_fake_script() -- Alright.Script 
 	local script = Instance.new('Script', Alright)
 
 	function lclick()
@@ -898,8 +1196,8 @@ local function ZFXH_fake_script() -- Alright.Script
 	
 	script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(ZFXH_fake_script)()
-local function ISJETI_fake_script() -- OneMoment.Script 
+coroutine.wrap(CTAWTI_fake_script)()
+local function NYMDVQX_fake_script() -- OneMoment.Script 
 	local script = Instance.new('Script', OneMoment)
 
 	function lclick()
@@ -913,13 +1211,13 @@ local function ISJETI_fake_script() -- OneMoment.Script
 	
 	script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(ISJETI_fake_script)()
-local function RJQE_fake_script() -- Menu.LocalScript 
-	local script = Instance.new('LocalScript', Menu)
+coroutine.wrap(NYMDVQX_fake_script)()
+local function QUBCIEQ_fake_script() -- Menu.Script 
+	local script = Instance.new('Script', Menu)
 
 	function lclick()
 		local args = {
-			[1] = "The menu is now located on tablet on your table.",
+			[1] = "The menu is now located on the tablet on your table.",
 			[2] = "All"
 		}
 	
@@ -928,8 +1226,8 @@ local function RJQE_fake_script() -- Menu.LocalScript
 	
 	script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(RJQE_fake_script)()
-local function TBWI_fake_script() -- Welcome.Script 
+coroutine.wrap(QUBCIEQ_fake_script)()
+local function OELQWU_fake_script() -- Welcome.Script 
 	local script = Instance.new('Script', Welcome)
 
 	function lclick()
@@ -943,8 +1241,8 @@ local function TBWI_fake_script() -- Welcome.Script
 	
 	script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(TBWI_fake_script)()
-local function WUEVFIV_fake_script() -- TipMeNow.Script 
+coroutine.wrap(OELQWU_fake_script)()
+local function RRHH_fake_script() -- TipMeNow.Script 
 	local script = Instance.new('Script', TipMeNow)
 
 	function lclick()
@@ -958,8 +1256,8 @@ local function WUEVFIV_fake_script() -- TipMeNow.Script
 	
 	script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(WUEVFIV_fake_script)()
-local function IGFO_fake_script() -- OutroI.Script 
+coroutine.wrap(RRHH_fake_script)()
+local function QURLD_fake_script() -- OutroI.Script 
 	local script = Instance.new('Script', OutroI)
 
 	function lclick()
@@ -973,8 +1271,8 @@ local function IGFO_fake_script() -- OutroI.Script
 	
 	script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(IGFO_fake_script)()
-local function VJQC_fake_script() -- MovingOn.Script 
+coroutine.wrap(QURLD_fake_script)()
+local function XKNCZZY_fake_script() -- MovingOn.Script 
 	local script = Instance.new('Script', MovingOn)
 
 	function lclick()
@@ -988,8 +1286,8 @@ local function VJQC_fake_script() -- MovingOn.Script
 	
 	script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(VJQC_fake_script)()
-local function SOAP_fake_script() -- More.Script 
+coroutine.wrap(XKNCZZY_fake_script)()
+local function RTXZCF_fake_script() -- More.Script 
 	local script = Instance.new('Script', More)
 
 	print("Hello world!")
@@ -1004,8 +1302,8 @@ local function SOAP_fake_script() -- More.Script
 	
 	script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(SOAP_fake_script)()
-local function EECPO_fake_script() -- ExcellentChoice.Script 
+coroutine.wrap(RTXZCF_fake_script)()
+local function CLNPPND_fake_script() -- ExcellentChoice.Script 
 	local script = Instance.new('Script', ExcellentChoice)
 
 	function lclick()
@@ -1019,8 +1317,8 @@ local function EECPO_fake_script() -- ExcellentChoice.Script
 	
 	script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(EECPO_fake_script)()
-local function NFQR_fake_script() -- Cummingrightup.Script 
+coroutine.wrap(CLNPPND_fake_script)()
+local function NXRGKYI_fake_script() -- Cummingrightup.Script 
 	local script = Instance.new('Script', Cummingrightup)
 
 	function lclick()
@@ -1034,8 +1332,8 @@ local function NFQR_fake_script() -- Cummingrightup.Script
 	
 	script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(NFQR_fake_script)()
-local function RBUHPX_fake_script() -- Okay.Script 
+coroutine.wrap(NXRGKYI_fake_script)()
+local function VVFQQFJ_fake_script() -- Okay.Script 
 	local script = Instance.new('Script', Okay)
 
 	function lclick()
@@ -1059,8 +1357,8 @@ local function RBUHPX_fake_script() -- Okay.Script
 	script.Parent.MouseButton1Click:Connect(lclick)
 	script.Parent.MouseButton2Click:Connect(rclick)
 end
-coroutine.wrap(RBUHPX_fake_script)()
-local function NQLP_fake_script() -- Sure.Script 
+coroutine.wrap(VVFQQFJ_fake_script)()
+local function SNJSPXW_fake_script() -- Sure.Script 
 	local script = Instance.new('Script', Sure)
 
 	function lclick()
@@ -1084,8 +1382,8 @@ local function NQLP_fake_script() -- Sure.Script
 	script.Parent.MouseButton1Click:Connect(lclick)
 	script.Parent.MouseButton2Click:Connect(rclick)
 end
-coroutine.wrap(NQLP_fake_script)()
-local function UNJN_fake_script() -- Drinks.Script 
+coroutine.wrap(SNJSPXW_fake_script)()
+local function AXTSPI_fake_script() -- Drinks.Script 
 	local script = Instance.new('Script', Drinks)
 
 	function lclick()
@@ -1099,8 +1397,8 @@ local function UNJN_fake_script() -- Drinks.Script
 	
 	script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(UNJN_fake_script)()
-local function BELU_fake_script() -- Appetizers.Script 
+coroutine.wrap(AXTSPI_fake_script)()
+local function ISULAM_fake_script() -- Appetizers.Script 
 	local script = Instance.new('Script', Appetizers)
 
 	function lclick()
@@ -1115,8 +1413,8 @@ local function BELU_fake_script() -- Appetizers.Script
 	script.Parent.MouseButton1Click:Connect(lclick)
 	
 end
-coroutine.wrap(BELU_fake_script)()
-local function PRAKCD_fake_script() -- Left.LocalScript 
+coroutine.wrap(ISULAM_fake_script)()
+local function QDZQZVP_fake_script() -- Left.LocalScript 
 	local script = Instance.new('LocalScript', Left)
 
 	local Left = script.Parent
@@ -1124,6 +1422,7 @@ local function PRAKCD_fake_script() -- Left.LocalScript
 	local MS = game.CoreGui.Main.Backing.Pages.MS
 	local Settings = game.CoreGui.Main.Backing.Pages.Settings
 	local Speech = game.CoreGui.Main.Backing.Pages.Speech
+	local SecondSpeech = game.CoreGui.Main.Backing.Pages.SecondSpeech
 	
 	function lclick()
 		if MS.Visible == true then
@@ -1132,13 +1431,16 @@ local function PRAKCD_fake_script() -- Left.LocalScript
 		elseif Speech.Visible  == true then
 			Speech.Visible = false
 			MS.Visible = true
+		elseif SecondSpeech.Visible == true then
+			SecondSpeech.Visible = false
+			Speech.Visible = true
 		end
 	end
 	
 	Left.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(PRAKCD_fake_script)()
-local function IJHZPZZ_fake_script() -- Right.LocalScript 
+coroutine.wrap(QDZQZVP_fake_script)()
+local function PQLDD_fake_script() -- Right.LocalScript 
 	local script = Instance.new('LocalScript', Right)
 
 	local Right = script.Parent
@@ -1146,6 +1448,7 @@ local function IJHZPZZ_fake_script() -- Right.LocalScript
 	local MS = game.CoreGui.Main.Backing.Pages.MS
 	local Settings = game.CoreGui.Main.Backing.Pages.Settings
 	local Speech = game.CoreGui.Main.Backing.Pages.Speech
+	local SecondSpeech = game.CoreGui.Main.Backing.Pages.SecondSpeech
 	
 	function lclick()
 		if Settings.Visible == true then
@@ -1154,9 +1457,12 @@ local function IJHZPZZ_fake_script() -- Right.LocalScript
 		elseif MS.Visible == true then 
 			MS.Visible = false
 			Speech.Visible = true
+		elseif Speech.Visible == true then
+			Speech.Visible = false
+			SecondSpeech.Visible = true
 		end
 	end
 	
 	Right.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(IJHZPZZ_fake_script)()
+coroutine.wrap(PQLDD_fake_script)()
