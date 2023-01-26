@@ -1,0 +1,1316 @@
+local Main = Instance.new("ScreenGui")
+local Backing = Instance.new("Frame")
+local Pages = Instance.new("Frame")
+local Settings = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local SettingsLayer2 = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local Bill = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Clear = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local NotePadUnlock = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local NoUni = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local MS = Instance.new("Frame")
+local UICorner_7 = Instance.new("UICorner")
+local Label1 = Instance.new("TextLabel")
+local UICorner_8 = Instance.new("UICorner")
+local Intro = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local Floor = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local TableType = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Outro = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local Decore1 = Instance.new("Frame")
+local UICorner_13 = Instance.new("UICorner")
+local Layer2 = Instance.new("Frame")
+local UICorner_14 = Instance.new("UICorner")
+local Version = Instance.new("TextLabel")
+local UICorner_15 = Instance.new("UICorner")
+local Follow = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local Alright = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local Speech = Instance.new("Frame")
+local UICorner_18 = Instance.new("UICorner")
+local OneMoment = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local Menu = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local Welcome = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local TipMeNow = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local OutroI = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local MovingOn = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local More = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local ExcellentChoice = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local Cummingrightup = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local Okay = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local Sure = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local Drinks = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
+local Appetizers = Instance.new("TextButton")
+local UICorner_31 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local SpeechLaybel = Instance.new("Frame")
+local UICorner_32 = Instance.new("UICorner")
+local SecondSpeech = Instance.new("Frame")
+local UICorner_33 = Instance.new("UICorner")
+local SpeechLabel = Instance.new("Frame")
+local UICorner_34 = Instance.new("UICorner")
+local null = Instance.new("TextButton")
+local UICorner_35 = Instance.new("UICorner")
+local null_2 = Instance.new("TextButton")
+local UICorner_36 = Instance.new("UICorner")
+local null_3 = Instance.new("TextButton")
+local UICorner_37 = Instance.new("UICorner")
+local null_4 = Instance.new("TextButton")
+local UICorner_38 = Instance.new("UICorner")
+local null_5 = Instance.new("TextButton")
+local UICorner_39 = Instance.new("UICorner")
+local null_6 = Instance.new("TextButton")
+local UICorner_40 = Instance.new("UICorner")
+local null_7 = Instance.new("TextButton")
+local UICorner_41 = Instance.new("UICorner")
+local null_8 = Instance.new("TextButton")
+local UICorner_42 = Instance.new("UICorner")
+local null_9 = Instance.new("TextButton")
+local UICorner_43 = Instance.new("UICorner")
+local null_10 = Instance.new("TextButton")
+local UICorner_44 = Instance.new("UICorner")
+local null_11 = Instance.new("TextButton")
+local UICorner_45 = Instance.new("UICorner")
+local null_12 = Instance.new("TextButton")
+local UICorner_46 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local Left = Instance.new("TextButton")
+local UICorner_47 = Instance.new("UICorner")
+local Right = Instance.new("TextButton")
+local UICorner_48 = Instance.new("UICorner")
+
+--Properties:
+
+Main.Name = "Main"
+Main.Parent = game.CoreGui
+Main.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Main.ResetOnSpawn = false
+
+Backing.Name = "Backing"
+Backing.Parent = Main
+Backing.Active = true
+Backing.AnchorPoint = Vector2.new(0.5, 0.5)
+Backing.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Backing.BackgroundTransparency = 1.000
+Backing.Draggable = true
+Backing.Position = UDim2.new(0.499464095, -1, 0.472358972, -8)
+Backing.Size = UDim2.new(0, 205, 0, 375)
+Backing.ZIndex = 0
+
+Pages.Name = "Pages"
+Pages.Parent = Backing
+Pages.AnchorPoint = Vector2.new(0.5, 0.5)
+Pages.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Pages.BackgroundTransparency = 1.000
+Pages.Position = UDim2.new(0.502439022, 0, 0.498666674, 0)
+Pages.Size = UDim2.new(0, 205, 0, 375)
+
+Settings.Name = "Settings"
+Settings.Parent = Pages
+Settings.AnchorPoint = Vector2.new(0.5, 0.5)
+Settings.BackgroundColor3 = Color3.fromRGB(52, 17, 113)
+Settings.Position = UDim2.new(0.497560978, 0, 0.498666704, 0)
+Settings.Size = UDim2.new(0, 205, 0, 375)
+Settings.Visible = false
+Settings.ZIndex = 2
+
+UICorner.CornerRadius = UDim.new(0, 10)
+UICorner.Parent = Settings
+
+TextLabel.Parent = Settings
+TextLabel.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.5, 0, 0.0586666651, 0)
+TextLabel.Size = UDim2.new(0, 205, 0, 44)
+TextLabel.ZIndex = 3
+TextLabel.Font = Enum.Font.Kalam
+TextLabel.Text = "Options"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+SettingsLayer2.Name = "SettingsLayer2"
+SettingsLayer2.Parent = Settings
+SettingsLayer2.AnchorPoint = Vector2.new(0.5, 0.5)
+SettingsLayer2.BackgroundColor3 = Color3.fromRGB(36, 12, 81)
+SettingsLayer2.BackgroundTransparency = 0.300
+SettingsLayer2.Position = UDim2.new(0.499390244, 0, 0.500333309, 0)
+SettingsLayer2.Size = UDim2.new(0, 204, 0, 374)
+SettingsLayer2.ZIndex = 2
+
+UICorner_2.CornerRadius = UDim.new(0, 10)
+UICorner_2.Parent = SettingsLayer2
+
+Bill.Name = "Bill"
+Bill.Parent = Settings
+Bill.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Bill.Position = UDim2.new(0.060248822, 0, 0.11733333, 0)
+Bill.Size = UDim2.new(0, 179, 0, 50)
+Bill.ZIndex = 3
+Bill.Font = Enum.Font.Kalam
+Bill.Text = "Remove ad's"
+Bill.TextColor3 = Color3.fromRGB(255, 255, 255)
+Bill.TextScaled = true
+Bill.TextSize = 14.000
+Bill.TextWrapped = true
+
+UICorner_3.CornerRadius = UDim.new(0, 10)
+UICorner_3.Parent = Bill
+
+Clear.Name = "Clear"
+Clear.Parent = Settings
+Clear.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Clear.Position = UDim2.new(0.0585365854, 0, 0.277333289, 0)
+Clear.Size = UDim2.new(0, 179, 0, 50)
+Clear.ZIndex = 3
+Clear.Font = Enum.Font.Kalam
+Clear.Text = "Clear inventory"
+Clear.TextColor3 = Color3.fromRGB(255, 255, 255)
+Clear.TextScaled = true
+Clear.TextSize = 14.000
+Clear.TextWrapped = true
+
+UICorner_4.CornerRadius = UDim.new(0, 10)
+UICorner_4.Parent = Clear
+
+NotePadUnlock.Name = "NotePadUnlock"
+NotePadUnlock.Parent = Settings
+NotePadUnlock.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+NotePadUnlock.Position = UDim2.new(0.0585365854, 0, 0.5946666, 0)
+NotePadUnlock.Size = UDim2.new(0, 179, 0, 50)
+NotePadUnlock.ZIndex = 3
+NotePadUnlock.Font = Enum.Font.Kalam
+NotePadUnlock.Text = "Notepad"
+NotePadUnlock.TextColor3 = Color3.fromRGB(255, 255, 255)
+NotePadUnlock.TextScaled = true
+NotePadUnlock.TextSize = 14.000
+NotePadUnlock.TextWrapped = true
+
+UICorner_5.CornerRadius = UDim.new(0, 10)
+UICorner_5.Parent = NotePadUnlock
+
+NoUni.Name = "NoUni"
+NoUni.Parent = Settings
+NoUni.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+NoUni.Position = UDim2.new(0.0602488443, 0, 0.434666693, 0)
+NoUni.Size = UDim2.new(0, 179, 0, 50)
+NoUni.ZIndex = 3
+NoUni.Font = Enum.Font.Kalam
+NoUni.Text = "No Uniform"
+NoUni.TextColor3 = Color3.fromRGB(255, 255, 255)
+NoUni.TextScaled = true
+NoUni.TextSize = 14.000
+NoUni.TextWrapped = true
+
+UICorner_6.CornerRadius = UDim.new(0, 10)
+UICorner_6.Parent = NoUni
+
+MS.Name = "MS"
+MS.Parent = Pages
+MS.AnchorPoint = Vector2.new(0.5, 0.5)
+MS.BackgroundColor3 = Color3.fromRGB(57, 19, 129)
+MS.Position = UDim2.new(0.497560978, 0, 0.498666674, 0)
+MS.Size = UDim2.new(0, 205, 0, 375)
+MS.ZIndex = 2
+
+UICorner_7.CornerRadius = UDim.new(0, 10)
+UICorner_7.Parent = MS
+
+Label1.Name = "Label1"
+Label1.Parent = MS
+Label1.AnchorPoint = Vector2.new(0.5, 0.5)
+Label1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Label1.Position = UDim2.new(0.502439022, 0, 0.0800000131, 0)
+Label1.Size = UDim2.new(0, 180, 0, 44)
+Label1.ZIndex = 4
+Label1.Font = Enum.Font.Kalam
+Label1.Text = "Main Speech"
+Label1.TextColor3 = Color3.fromRGB(255, 255, 255)
+Label1.TextScaled = true
+Label1.TextSize = 14.000
+Label1.TextWrapped = true
+
+UICorner_8.CornerRadius = UDim.new(0, 10)
+UICorner_8.Parent = Label1
+
+Intro.Name = "Intro"
+Intro.Parent = MS
+Intro.AnchorPoint = Vector2.new(0.5, 0.5)
+Intro.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Intro.Position = UDim2.new(0.502438903, 0, 0.274666697, 0)
+Intro.Size = UDim2.new(0, 180, 0, 50)
+Intro.ZIndex = 4
+Intro.Font = Enum.Font.Kalam
+Intro.Text = "Greeting"
+Intro.TextColor3 = Color3.fromRGB(255, 255, 255)
+Intro.TextScaled = true
+Intro.TextSize = 14.000
+Intro.TextWrapped = true
+
+UICorner_9.CornerRadius = UDim.new(0, 10)
+UICorner_9.Parent = Intro
+
+Floor.Name = "Floor"
+Floor.Parent = MS
+Floor.AnchorPoint = Vector2.new(0.5, 0.5)
+Floor.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Floor.Position = UDim2.new(0.502438962, 0, 0.421333462, 0)
+Floor.Size = UDim2.new(0, 180, 0, 50)
+Floor.ZIndex = 4
+Floor.Font = Enum.Font.Kalam
+Floor.Text = "Floor?"
+Floor.TextColor3 = Color3.fromRGB(255, 255, 255)
+Floor.TextScaled = true
+Floor.TextSize = 14.000
+Floor.TextWrapped = true
+
+UICorner_10.CornerRadius = UDim.new(0, 10)
+UICorner_10.Parent = Floor
+
+TableType.Name = "TableType"
+TableType.Parent = MS
+TableType.AnchorPoint = Vector2.new(0.5, 0.5)
+TableType.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TableType.Position = UDim2.new(0.502438962, 0, 0.570666671, 0)
+TableType.Size = UDim2.new(0, 180, 0, 50)
+TableType.ZIndex = 4
+TableType.Font = Enum.Font.Kalam
+TableType.Text = "Table type?"
+TableType.TextColor3 = Color3.fromRGB(255, 255, 255)
+TableType.TextScaled = true
+TableType.TextSize = 14.000
+TableType.TextWrapped = true
+
+UICorner_11.CornerRadius = UDim.new(0, 10)
+UICorner_11.Parent = TableType
+
+Outro.Name = "Outro"
+Outro.Parent = MS
+Outro.AnchorPoint = Vector2.new(0.5, 0.5)
+Outro.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Outro.Position = UDim2.new(0.497560978, 0, 0.717333436, 0)
+Outro.Size = UDim2.new(0, 180, 0, 50)
+Outro.ZIndex = 4
+Outro.Font = Enum.Font.Kalam
+Outro.Text = "Goodbye"
+Outro.TextColor3 = Color3.fromRGB(255, 255, 255)
+Outro.TextScaled = true
+Outro.TextSize = 14.000
+Outro.TextWrapped = true
+
+UICorner_12.CornerRadius = UDim.new(0, 10)
+UICorner_12.Parent = Outro
+
+Decore1.Name = "Decore1"
+Decore1.Parent = MS
+Decore1.AnchorPoint = Vector2.new(0.5, 0.5)
+Decore1.BackgroundColor3 = Color3.fromRGB(36, 12, 81)
+Decore1.Position = UDim2.new(0.502439022, 0, 0.498666674, 0)
+Decore1.Size = UDim2.new(0, 190, 0, 240)
+Decore1.ZIndex = 3
+
+UICorner_13.CornerRadius = UDim.new(0, 10)
+UICorner_13.Parent = Decore1
+
+Layer2.Name = "Layer2"
+Layer2.Parent = MS
+Layer2.AnchorPoint = Vector2.new(0.5, 0.5)
+Layer2.BackgroundColor3 = Color3.fromRGB(36, 12, 81)
+Layer2.BackgroundTransparency = 0.300
+Layer2.Position = UDim2.new(0.499390244, 0, 0.500333309, 0)
+Layer2.Size = UDim2.new(0, 204, 0, 374)
+Layer2.ZIndex = 2
+
+UICorner_14.CornerRadius = UDim.new(0, 10)
+UICorner_14.Parent = Layer2
+
+Version.Name = "Version"
+Version.Parent = MS
+Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Version.BackgroundTransparency = 1.000
+Version.Position = UDim2.new(0.0341463424, 0, 0.927999973, 0)
+Version.Size = UDim2.new(0, 29, 0, 35)
+Version.ZIndex = 4
+Version.Font = Enum.Font.Kalam
+Version.Text = "v 1.1"
+Version.TextColor3 = Color3.fromRGB(255, 255, 255)
+Version.TextScaled = true
+Version.TextSize = 14.000
+Version.TextWrapped = true
+
+UICorner_15.CornerRadius = UDim.new(0, 10)
+UICorner_15.Parent = Version
+
+Follow.Name = "Follow"
+Follow.Parent = MS
+Follow.AnchorPoint = Vector2.new(0.5, 0.5)
+Follow.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Follow.Position = UDim2.new(0.782926857, 0, 0.914666772, 0)
+Follow.Size = UDim2.new(0, 65, 0, 50)
+Follow.ZIndex = 4
+Follow.Font = Enum.Font.Kalam
+Follow.Text = "Follow"
+Follow.TextColor3 = Color3.fromRGB(255, 255, 255)
+Follow.TextScaled = true
+Follow.TextSize = 14.000
+Follow.TextWrapped = true
+
+UICorner_16.CornerRadius = UDim.new(0, 10)
+UICorner_16.Parent = Follow
+
+Alright.Name = "Alright"
+Alright.Parent = MS
+Alright.AnchorPoint = Vector2.new(0.5, 0.5)
+Alright.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Alright.Position = UDim2.new(0.402439058, 0, 0.914666772, 0)
+Alright.Size = UDim2.new(0, 65, 0, 50)
+Alright.ZIndex = 4
+Alright.Font = Enum.Font.Kalam
+Alright.Text = "Alright"
+Alright.TextColor3 = Color3.fromRGB(255, 255, 255)
+Alright.TextScaled = true
+Alright.TextSize = 14.000
+Alright.TextWrapped = true
+
+UICorner_17.CornerRadius = UDim.new(0, 10)
+UICorner_17.Parent = Alright
+
+Speech.Name = "Speech"
+Speech.Parent = Pages
+Speech.AnchorPoint = Vector2.new(0.5, 0.5)
+Speech.BackgroundColor3 = Color3.fromRGB(57, 19, 129)
+Speech.Position = UDim2.new(0.497999996, 0, 0.499000013, 0)
+Speech.Size = UDim2.new(0, 205, 0, 375)
+Speech.Visible = false
+Speech.ZIndex = 2
+
+UICorner_18.CornerRadius = UDim.new(0, 10)
+UICorner_18.Parent = Speech
+
+OneMoment.Name = "OneMoment"
+OneMoment.Parent = Speech
+OneMoment.AnchorPoint = Vector2.new(0.5, 0.5)
+OneMoment.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OneMoment.Position = UDim2.new(0.800000012, 0, 0.106666751, 0)
+OneMoment.Size = UDim2.new(0, 55, 0, 50)
+OneMoment.ZIndex = 4
+OneMoment.Font = Enum.Font.Kalam
+OneMoment.Text = "One moment"
+OneMoment.TextColor3 = Color3.fromRGB(255, 255, 255)
+OneMoment.TextScaled = true
+OneMoment.TextSize = 14.000
+OneMoment.TextWrapped = true
+
+UICorner_19.CornerRadius = UDim.new(0, 10)
+UICorner_19.Parent = OneMoment
+
+Menu.Name = "Menu"
+Menu.Parent = Speech
+Menu.AnchorPoint = Vector2.new(0.5, 0.5)
+Menu.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Menu.Position = UDim2.new(0.187804908, 0, 0.106666744, 0)
+Menu.Size = UDim2.new(0, 55, 0, 50)
+Menu.ZIndex = 4
+Menu.Font = Enum.Font.Kalam
+Menu.Text = "Menu location"
+Menu.TextColor3 = Color3.fromRGB(255, 255, 255)
+Menu.TextScaled = true
+Menu.TextSize = 14.000
+Menu.TextWrapped = true
+
+UICorner_20.CornerRadius = UDim.new(0, 10)
+UICorner_20.Parent = Menu
+
+Welcome.Name = "Welcome"
+Welcome.Parent = Speech
+Welcome.AnchorPoint = Vector2.new(0.5, 0.5)
+Welcome.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Welcome.Position = UDim2.new(0.497560978, 0, 0.106666751, 0)
+Welcome.Size = UDim2.new(0, 55, 0, 50)
+Welcome.ZIndex = 4
+Welcome.Font = Enum.Font.Kalam
+Welcome.Text = "You're welcome!"
+Welcome.TextColor3 = Color3.fromRGB(255, 255, 255)
+Welcome.TextScaled = true
+Welcome.TextSize = 14.000
+Welcome.TextWrapped = true
+
+UICorner_21.CornerRadius = UDim.new(0, 10)
+UICorner_21.Parent = Welcome
+
+TipMeNow.Name = "TipMeNow"
+TipMeNow.Parent = Speech
+TipMeNow.AnchorPoint = Vector2.new(0.5, 0.5)
+TipMeNow.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TipMeNow.Position = UDim2.new(0.804878056, 0, 0.91200006, 0)
+TipMeNow.Size = UDim2.new(0, 55, 0, 50)
+TipMeNow.ZIndex = 4
+TipMeNow.Font = Enum.Font.Kalam
+TipMeNow.Text = "Tip"
+TipMeNow.TextColor3 = Color3.fromRGB(255, 255, 255)
+TipMeNow.TextScaled = true
+TipMeNow.TextSize = 14.000
+TipMeNow.TextWrapped = true
+
+UICorner_22.CornerRadius = UDim.new(0, 10)
+UICorner_22.Parent = TipMeNow
+
+OutroI.Name = "OutroI"
+OutroI.Parent = Speech
+OutroI.AnchorPoint = Vector2.new(0.5, 0.5)
+OutroI.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OutroI.Position = UDim2.new(0.34512195, 0, 0.91200006, 0)
+OutroI.Size = UDim2.new(0, 117, 0, 50)
+OutroI.ZIndex = 4
+OutroI.Font = Enum.Font.Kalam
+OutroI.Text = "Goodbye"
+OutroI.TextColor3 = Color3.fromRGB(255, 255, 255)
+OutroI.TextScaled = true
+OutroI.TextSize = 14.000
+OutroI.TextWrapped = true
+
+UICorner_23.CornerRadius = UDim.new(0, 10)
+UICorner_23.Parent = OutroI
+
+MovingOn.Name = "MovingOn"
+MovingOn.Parent = Speech
+MovingOn.AnchorPoint = Vector2.new(0.5, 0.5)
+MovingOn.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+MovingOn.Position = UDim2.new(0.502439022, 0, 0.762666702, 0)
+MovingOn.Size = UDim2.new(0, 55, 0, 50)
+MovingOn.ZIndex = 4
+MovingOn.Font = Enum.Font.Kalam
+MovingOn.Text = "Moving on.."
+MovingOn.TextColor3 = Color3.fromRGB(255, 255, 255)
+MovingOn.TextScaled = true
+MovingOn.TextSize = 14.000
+MovingOn.TextWrapped = true
+
+UICorner_24.CornerRadius = UDim.new(0, 10)
+UICorner_24.Parent = MovingOn
+
+More.Name = "More"
+More.Parent = Speech
+More.AnchorPoint = Vector2.new(0.5, 0.5)
+More.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+More.Position = UDim2.new(0.192682952, 0, 0.762666702, 0)
+More.Size = UDim2.new(0, 55, 0, 50)
+More.ZIndex = 4
+More.Font = Enum.Font.Kalam
+More.Text = "More?"
+More.TextColor3 = Color3.fromRGB(255, 255, 255)
+More.TextScaled = true
+More.TextSize = 14.000
+More.TextWrapped = true
+
+UICorner_25.CornerRadius = UDim.new(0, 10)
+UICorner_25.Parent = More
+
+ExcellentChoice.Name = "ExcellentChoice"
+ExcellentChoice.Parent = Speech
+ExcellentChoice.AnchorPoint = Vector2.new(0.5, 0.5)
+ExcellentChoice.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ExcellentChoice.Position = UDim2.new(0.804878056, 0, 0.762666702, 0)
+ExcellentChoice.Size = UDim2.new(0, 55, 0, 50)
+ExcellentChoice.ZIndex = 4
+ExcellentChoice.Font = Enum.Font.Kalam
+ExcellentChoice.Text = "Good Choice!"
+ExcellentChoice.TextColor3 = Color3.fromRGB(255, 255, 255)
+ExcellentChoice.TextScaled = true
+ExcellentChoice.TextSize = 14.000
+ExcellentChoice.TextWrapped = true
+
+UICorner_26.CornerRadius = UDim.new(0, 10)
+UICorner_26.Parent = ExcellentChoice
+
+Cummingrightup.Name = "Cummingrightup"
+Cummingrightup.Parent = Speech
+Cummingrightup.AnchorPoint = Vector2.new(0.5, 0.5)
+Cummingrightup.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Cummingrightup.Position = UDim2.new(0.800000012, 0, 0.258666754, 0)
+Cummingrightup.Size = UDim2.new(0, 55, 0, 50)
+Cummingrightup.ZIndex = 4
+Cummingrightup.Font = Enum.Font.Kalam
+Cummingrightup.Text = "Coming right up"
+Cummingrightup.TextColor3 = Color3.fromRGB(255, 255, 255)
+Cummingrightup.TextScaled = true
+Cummingrightup.TextSize = 14.000
+Cummingrightup.TextWrapped = true
+
+UICorner_27.CornerRadius = UDim.new(0, 10)
+UICorner_27.Parent = Cummingrightup
+
+Okay.Name = "Okay"
+Okay.Parent = Speech
+Okay.AnchorPoint = Vector2.new(0.5, 0.5)
+Okay.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Okay.Position = UDim2.new(0.497560978, 0, 0.258666754, 0)
+Okay.Size = UDim2.new(0, 55, 0, 50)
+Okay.ZIndex = 4
+Okay.Font = Enum.Font.Kalam
+Okay.Text = "Okay!"
+Okay.TextColor3 = Color3.fromRGB(255, 255, 255)
+Okay.TextScaled = true
+Okay.TextSize = 14.000
+Okay.TextWrapped = true
+
+UICorner_28.CornerRadius = UDim.new(0, 10)
+UICorner_28.Parent = Okay
+
+Sure.Name = "Sure"
+Sure.Parent = Speech
+Sure.AnchorPoint = Vector2.new(0.5, 0.5)
+Sure.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Sure.Position = UDim2.new(0.187804908, 0, 0.258666754, 0)
+Sure.Size = UDim2.new(0, 55, 0, 50)
+Sure.ZIndex = 4
+Sure.Font = Enum.Font.Kalam
+Sure.Text = "Sure!"
+Sure.TextColor3 = Color3.fromRGB(255, 255, 255)
+Sure.TextScaled = true
+Sure.TextSize = 14.000
+Sure.TextWrapped = true
+
+UICorner_29.CornerRadius = UDim.new(0, 10)
+UICorner_29.Parent = Sure
+
+Drinks.Name = "Drinks"
+Drinks.Parent = Speech
+Drinks.AnchorPoint = Vector2.new(0.5, 0.5)
+Drinks.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Drinks.Position = UDim2.new(0.494902521, 0, 0.408000082, 0)
+Drinks.Size = UDim2.new(0, 180, 0, 50)
+Drinks.ZIndex = 4
+Drinks.Font = Enum.Font.Kalam
+Drinks.Text = "Drinks"
+Drinks.TextColor3 = Color3.fromRGB(255, 255, 255)
+Drinks.TextScaled = true
+Drinks.TextSize = 14.000
+Drinks.TextWrapped = true
+
+UICorner_30.CornerRadius = UDim.new(0, 10)
+UICorner_30.Parent = Drinks
+
+Appetizers.Name = "Appetizers"
+Appetizers.Parent = Speech
+Appetizers.AnchorPoint = Vector2.new(0.5, 0.5)
+Appetizers.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Appetizers.Position = UDim2.new(0.490024477, 0, 0.610666752, 0)
+Appetizers.Size = UDim2.new(0, 180, 0, 50)
+Appetizers.ZIndex = 4
+Appetizers.Font = Enum.Font.Kalam
+Appetizers.Text = "Appetizers"
+Appetizers.TextColor3 = Color3.fromRGB(255, 255, 255)
+Appetizers.TextScaled = true
+Appetizers.TextSize = 14.000
+Appetizers.TextWrapped = true
+
+UICorner_31.CornerRadius = UDim.new(0, 10)
+UICorner_31.Parent = Appetizers
+
+TextLabel_2.Parent = Speech
+TextLabel_2.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.493237913, 0, 0.509666741, 0)
+TextLabel_2.Size = UDim2.new(0, 178, 0, 25)
+TextLabel_2.ZIndex = 4
+TextLabel_2.Font = Enum.Font.Kalam
+TextLabel_2.Text = "Speech"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+SpeechLaybel.Name = "SpeechLaybel"
+SpeechLaybel.Parent = Speech
+SpeechLaybel.AnchorPoint = Vector2.new(0.5, 0.5)
+SpeechLaybel.BackgroundColor3 = Color3.fromRGB(36, 12, 81)
+SpeechLaybel.BackgroundTransparency = 0.300
+SpeechLaybel.Position = UDim2.new(0.497999996, 0, 0.499000013, 0)
+SpeechLaybel.Size = UDim2.new(0, 205, 0, 375)
+SpeechLaybel.ZIndex = 2
+
+UICorner_32.CornerRadius = UDim.new(0, 10)
+UICorner_32.Parent = SpeechLaybel
+
+SecondSpeech.Name = "SecondSpeech"
+SecondSpeech.Parent = Pages
+SecondSpeech.AnchorPoint = Vector2.new(0.5, 0.5)
+SecondSpeech.BackgroundColor3 = Color3.fromRGB(57, 19, 129)
+SecondSpeech.Position = UDim2.new(0.497999996, 0, 0.499000013, 0)
+SecondSpeech.Size = UDim2.new(0, 205, 0, 375)
+SecondSpeech.Visible = false
+SecondSpeech.ZIndex = 2
+
+UICorner_33.CornerRadius = UDim.new(0, 10)
+UICorner_33.Parent = SecondSpeech
+
+SpeechLabel.Name = "SpeechLabel"
+SpeechLabel.Parent = SecondSpeech
+SpeechLabel.AnchorPoint = Vector2.new(0.5, 0.5)
+SpeechLabel.BackgroundColor3 = Color3.fromRGB(36, 12, 81)
+SpeechLabel.BackgroundTransparency = 0.300
+SpeechLabel.Position = UDim2.new(0.497999996, 0, 0.499000013, 0)
+SpeechLabel.Size = UDim2.new(0, 205, 0, 375)
+SpeechLabel.ZIndex = 2
+
+UICorner_34.CornerRadius = UDim.new(0, 10)
+UICorner_34.Parent = SpeechLabel
+
+null.Name = "null"
+null.Parent = SecondSpeech
+null.AnchorPoint = Vector2.new(0.5, 0.5)
+null.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+null.Position = UDim2.new(0.187804908, 0, 0.106666744, 0)
+null.Size = UDim2.new(0, 55, 0, 50)
+null.ZIndex = 4
+null.Font = Enum.Font.Kalam
+null.Text = " "
+null.TextColor3 = Color3.fromRGB(255, 255, 255)
+null.TextScaled = true
+null.TextSize = 14.000
+null.TextWrapped = true
+
+UICorner_35.CornerRadius = UDim.new(0, 10)
+UICorner_35.Parent = null
+
+null_2.Name = "null"
+null_2.Parent = SecondSpeech
+null_2.AnchorPoint = Vector2.new(0.5, 0.5)
+null_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+null_2.Position = UDim2.new(0.645399451, 0, 0.106666751, 0)
+null_2.Size = UDim2.new(0, 115, 0, 50)
+null_2.ZIndex = 4
+null_2.Font = Enum.Font.Kalam
+null_2.Text = " "
+null_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+null_2.TextScaled = true
+null_2.TextSize = 14.000
+null_2.TextWrapped = true
+
+UICorner_36.CornerRadius = UDim.new(0, 10)
+UICorner_36.Parent = null_2
+
+null_3.Name = "null"
+null_3.Parent = SecondSpeech
+null_3.AnchorPoint = Vector2.new(0.5, 0.5)
+null_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+null_3.Position = UDim2.new(0.804878056, 0, 0.91200006, 0)
+null_3.Size = UDim2.new(0, 55, 0, 50)
+null_3.ZIndex = 4
+null_3.Font = Enum.Font.Kalam
+null_3.Text = " "
+null_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+null_3.TextScaled = true
+null_3.TextSize = 14.000
+null_3.TextWrapped = true
+
+UICorner_37.CornerRadius = UDim.new(0, 10)
+UICorner_37.Parent = null_3
+
+null_4.Name = "null"
+null_4.Parent = SecondSpeech
+null_4.AnchorPoint = Vector2.new(0.5, 0.5)
+null_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+null_4.Position = UDim2.new(0.34512195, 0, 0.91200006, 0)
+null_4.Size = UDim2.new(0, 117, 0, 50)
+null_4.ZIndex = 4
+null_4.Font = Enum.Font.Kalam
+null_4.Text = " "
+null_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+null_4.TextScaled = true
+null_4.TextSize = 14.000
+null_4.TextWrapped = true
+
+UICorner_38.CornerRadius = UDim.new(0, 10)
+UICorner_38.Parent = null_4
+
+null_5.Name = "null"
+null_5.Parent = SecondSpeech
+null_5.AnchorPoint = Vector2.new(0.5, 0.5)
+null_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+null_5.Position = UDim2.new(0.502439022, 0, 0.762666702, 0)
+null_5.Size = UDim2.new(0, 55, 0, 50)
+null_5.ZIndex = 4
+null_5.Font = Enum.Font.Kalam
+null_5.Text = " "
+null_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+null_5.TextScaled = true
+null_5.TextSize = 14.000
+null_5.TextWrapped = true
+
+UICorner_39.CornerRadius = UDim.new(0, 10)
+UICorner_39.Parent = null_5
+
+null_6.Name = "null"
+null_6.Parent = SecondSpeech
+null_6.AnchorPoint = Vector2.new(0.5, 0.5)
+null_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+null_6.Position = UDim2.new(0.192682952, 0, 0.762666702, 0)
+null_6.Size = UDim2.new(0, 55, 0, 50)
+null_6.ZIndex = 4
+null_6.Font = Enum.Font.Kalam
+null_6.Text = " "
+null_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+null_6.TextScaled = true
+null_6.TextSize = 14.000
+null_6.TextWrapped = true
+
+UICorner_40.CornerRadius = UDim.new(0, 10)
+UICorner_40.Parent = null_6
+
+null_7.Name = "null"
+null_7.Parent = SecondSpeech
+null_7.AnchorPoint = Vector2.new(0.5, 0.5)
+null_7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+null_7.Position = UDim2.new(0.804878056, 0, 0.762666702, 0)
+null_7.Size = UDim2.new(0, 55, 0, 50)
+null_7.ZIndex = 4
+null_7.Font = Enum.Font.Kalam
+null_7.Text = " "
+null_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+null_7.TextScaled = true
+null_7.TextSize = 14.000
+null_7.TextWrapped = true
+
+UICorner_41.CornerRadius = UDim.new(0, 10)
+UICorner_41.Parent = null_7
+
+null_8.Name = "null"
+null_8.Parent = SecondSpeech
+null_8.AnchorPoint = Vector2.new(0.5, 0.5)
+null_8.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+null_8.Position = UDim2.new(0.800000012, 0, 0.258666754, 0)
+null_8.Size = UDim2.new(0, 55, 0, 50)
+null_8.ZIndex = 4
+null_8.Font = Enum.Font.Kalam
+null_8.Text = " "
+null_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+null_8.TextScaled = true
+null_8.TextSize = 14.000
+null_8.TextWrapped = true
+
+UICorner_42.CornerRadius = UDim.new(0, 10)
+UICorner_42.Parent = null_8
+
+null_9.Name = "null"
+null_9.Parent = SecondSpeech
+null_9.AnchorPoint = Vector2.new(0.5, 0.5)
+null_9.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+null_9.Position = UDim2.new(0.497560978, 0, 0.258666754, 0)
+null_9.Size = UDim2.new(0, 55, 0, 50)
+null_9.ZIndex = 4
+null_9.Font = Enum.Font.Kalam
+null_9.Text = " "
+null_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+null_9.TextScaled = true
+null_9.TextSize = 14.000
+null_9.TextWrapped = true
+
+UICorner_43.CornerRadius = UDim.new(0, 10)
+UICorner_43.Parent = null_9
+
+null_10.Name = "null"
+null_10.Parent = SecondSpeech
+null_10.AnchorPoint = Vector2.new(0.5, 0.5)
+null_10.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+null_10.Position = UDim2.new(0.187804908, 0, 0.258666754, 0)
+null_10.Size = UDim2.new(0, 55, 0, 50)
+null_10.ZIndex = 4
+null_10.Font = Enum.Font.Kalam
+null_10.Text = " "
+null_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+null_10.TextScaled = true
+null_10.TextSize = 14.000
+null_10.TextWrapped = true
+
+UICorner_44.CornerRadius = UDim.new(0, 10)
+UICorner_44.Parent = null_10
+
+null_11.Name = "null"
+null_11.Parent = SecondSpeech
+null_11.AnchorPoint = Vector2.new(0.5, 0.5)
+null_11.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+null_11.Position = UDim2.new(0.494902521, 0, 0.408000082, 0)
+null_11.Size = UDim2.new(0, 180, 0, 50)
+null_11.ZIndex = 4
+null_11.Font = Enum.Font.Kalam
+null_11.Text = " "
+null_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+null_11.TextScaled = true
+null_11.TextSize = 14.000
+null_11.TextWrapped = true
+
+UICorner_45.CornerRadius = UDim.new(0, 10)
+UICorner_45.Parent = null_11
+
+null_12.Name = "null"
+null_12.Parent = SecondSpeech
+null_12.AnchorPoint = Vector2.new(0.5, 0.5)
+null_12.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+null_12.Position = UDim2.new(0.490024477, 0, 0.610666752, 0)
+null_12.Size = UDim2.new(0, 180, 0, 50)
+null_12.ZIndex = 4
+null_12.Font = Enum.Font.Kalam
+null_12.Text = " "
+null_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+null_12.TextScaled = true
+null_12.TextSize = 14.000
+null_12.TextWrapped = true
+
+UICorner_46.CornerRadius = UDim.new(0, 10)
+UICorner_46.Parent = null_12
+
+TextLabel_3.Parent = SecondSpeech
+TextLabel_3.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.493237913, 0, 0.509666741, 0)
+TextLabel_3.Size = UDim2.new(0, 178, 0, 25)
+TextLabel_3.ZIndex = 4
+TextLabel_3.Font = Enum.Font.Kalam
+TextLabel_3.Text = "Speech"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+Left.Name = "Left"
+Left.Parent = Backing
+Left.AnchorPoint = Vector2.new(0.5, 0.5)
+Left.BackgroundColor3 = Color3.fromRGB(36, 12, 81)
+Left.BackgroundTransparency = 0.300
+Left.Position = UDim2.new(0.00975608453, 0, 0.49333334, 0)
+Left.Size = UDim2.new(0, 20, 0, 363)
+Left.ZIndex = 0
+Left.Font = Enum.Font.SourceSans
+Left.Text = ""
+Left.TextColor3 = Color3.fromRGB(0, 0, 0)
+Left.TextSize = 14.000
+
+UICorner_47.CornerRadius = UDim.new(0, 10)
+UICorner_47.Parent = Left
+
+Right.Name = "Right"
+Right.Parent = Backing
+Right.AnchorPoint = Vector2.new(0.5, 0.5)
+Right.BackgroundColor3 = Color3.fromRGB(36, 12, 81)
+Right.BackgroundTransparency = 0.300
+Right.Position = UDim2.new(0.985365868, 0, 0.49333334, 0)
+Right.Size = UDim2.new(0, 20, 0, 363)
+Right.ZIndex = 0
+Right.Font = Enum.Font.SourceSans
+Right.Text = ""
+Right.TextColor3 = Color3.fromRGB(0, 0, 0)
+Right.TextSize = 14.000
+
+UICorner_48.CornerRadius = UDim.new(0, 10)
+UICorner_48.Parent = Right
+
+-- Scripts:
+
+local function PJOBEO_fake_script() -- Bill.Script 
+	local script = Instance.new('Script', Bill)
+
+	function lclick()
+		
+		game.Workspace.Boards:Destroy()
+		
+	end
+	
+	script.Parent.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(PJOBEO_fake_script)()
+local function KXYWI_fake_script() -- Clear.Script 
+	local script = Instance.new('Script', Clear)
+
+	function lclick()
+	
+		local args = {
+			[1] = 1,
+			[2] = workspace.Assets.Cooking.Trashcans.TrashCan.Interact,
+			[3] = "Trash Food"
+		}
+		
+		game:GetService("ReplicatedStorage").Packages.Knit.Services.InteractionService.RF.Clicked:InvokeServer(unpack(args))
+		
+	end
+	
+	script.Parent.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(KXYWI_fake_script)()
+local function OXGY_fake_script() -- NotePadUnlock.Script 
+	local script = Instance.new('Script', NotePadUnlock)
+
+	
+end
+coroutine.wrap(OXGY_fake_script)()
+local function LMCAK_fake_script() -- NoUni.Script 
+	local script = Instance.new('Script', NoUni)
+
+	print("Hello world!")
+	
+end
+coroutine.wrap(LMCAK_fake_script)()
+local function ZCKETJ_fake_script() -- Intro.Script 
+	local script = Instance.new('Script', Intro)
+
+	function lclick()
+		local args = {
+			[1] = "Hello, and welcome to Kohaú! My name is Snot, and I will be serving you today. How many people will be accommodating you today?",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end
+	
+	script.Parent.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(ZCKETJ_fake_script)()
+local function YSQP_fake_script() -- Floor.Script 
+	local script = Instance.new('Script', Floor)
+
+	function lclick()
+		local args = {
+			[1] = "Upstairs or downstairs?",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end
+	
+	script.Parent.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(YSQP_fake_script)()
+local function BFXCVX_fake_script() -- TableType.Script 
+	local script = Instance.new('Script', TableType)
+
+	function lclick()
+		local args = {
+			[1] = "Would you like to sit at a hibachi table, booth, table, or special dining area? (must have gamepass)",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end
+	
+	script.Parent.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(BFXCVX_fake_script)()
+local function GIAKI_fake_script() -- Outro.Script 
+	local script = Instance.new('Script', Outro)
+
+	function lclick()
+		local args = {
+			[1] = "Thank you for visting Kohaú! It was a pleasure serving you today.",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end
+	
+	script.Parent.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(GIAKI_fake_script)()
+local function IKQGX_fake_script() -- Follow.Script 
+	local script = Instance.new('Script', Follow)
+
+	function lclick()
+		local args = {
+			[1] = "Please, follow me!",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end
+	
+	script.Parent.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(IKQGX_fake_script)()
+local function OMKEE_fake_script() -- Alright.Script 
+	local script = Instance.new('Script', Alright)
+
+	function lclick()
+		local args = {
+			[1] = "Alrighty!",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end
+	
+	script.Parent.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(OMKEE_fake_script)()
+local function KQHA_fake_script() -- OneMoment.Script 
+	local script = Instance.new('Script', OneMoment)
+
+	function lclick()
+		local args = {
+			[1] = "One moment, please!",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end
+	
+	script.Parent.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(KQHA_fake_script)()
+local function ZFYZBE_fake_script() -- Menu.Script 
+	local script = Instance.new('Script', Menu)
+
+	function lclick()
+		local args = {
+			[1] = "The menu is located inside if your inventory.",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end
+	
+	script.Parent.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(ZFYZBE_fake_script)()
+local function JEUZJMQ_fake_script() -- Welcome.Script 
+	local script = Instance.new('Script', Welcome)
+
+	function lclick()
+		local args = {
+			[1] = "Hello, and welcome to Kohaú! My name is Snot, and I will be serving you today. How many people will be accommodating you today?",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end
+	
+	script.Parent.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(JEUZJMQ_fake_script)()
+local function ZCYLLID_fake_script() -- TipMeNow.Script 
+	local script = Instance.new('Script', TipMeNow)
+
+	function lclick()
+		local args = {
+			[1] = "(You can leave a tip if you want!)",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end
+	
+	script.Parent.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(ZCYLLID_fake_script)()
+local function NIEX_fake_script() -- OutroI.Script 
+	local script = Instance.new('Script', OutroI)
+
+	function lclick()
+		local args = {
+			[1] = "Thank you for visting Kohaú! It was a pleasure serving you today.",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end
+	
+	script.Parent.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(NIEX_fake_script)()
+local function ECTOVV_fake_script() -- MovingOn.Script 
+	local script = Instance.new('Script', MovingOn)
+
+	function lclick()
+		local args = {
+			[1] = "Moving on.",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end
+	
+	script.Parent.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(ECTOVV_fake_script)()
+local function JHGGP_fake_script() -- More.Script 
+	local script = Instance.new('Script', More)
+
+	function lclick()
+		local args = {
+			[1] = "Anything else?",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end
+	
+	script.Parent.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(JHGGP_fake_script)()
+local function WNGYJN_fake_script() -- ExcellentChoice.Script 
+	local script = Instance.new('Script', ExcellentChoice)
+
+	function lclick()
+		local args = {
+			[1] = "Excellent choice!",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end
+	
+	script.Parent.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(WNGYJN_fake_script)()
+local function CGUOOJ_fake_script() -- Cummingrightup.Script 
+	local script = Instance.new('Script', Cummingrightup)
+
+	function lclick()
+		local args = {
+			[1] = "",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end
+	
+	script.Parent.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(CGUOOJ_fake_script)()
+local function EJHPN_fake_script() -- Okay.Script 
+	local script = Instance.new('Script', Okay)
+
+	function lclick()
+		local args = {
+			[1] = "ALrighty!",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end
+	
+	script.Parent.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(EJHPN_fake_script)()
+local function ARAL_fake_script() -- Sure.Script 
+	local script = Instance.new('Script', Sure)
+
+	function lclick()
+		local args = {
+			[1] = "Sure thing!",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end
+	
+	script.Parent.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(ARAL_fake_script)()
+local function JOKDBFP_fake_script() -- Drinks.Script 
+	local script = Instance.new('Script', Drinks)
+
+	function lclick()
+		local args = {
+			[1] = "Can I start you off with any drinks?",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end
+	
+	script.Parent.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(JOKDBFP_fake_script)()
+local function UVYIUJT_fake_script() -- Appetizers.Script 
+	local script = Instance.new('Script', Appetizers)
+
+	function lclick()
+		local args = {
+			[1] = "",
+			[2] = "All"
+		}
+	
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end
+	
+	script.Parent.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(UVYIUJT_fake_script)()
+local function PBTJ_fake_script() -- Left.Script 
+	local script = Instance.new('Script', Left)
+
+	Left = script.Parent
+	
+	MS = game.CoreGui.Main.Backing.Pages.MS
+	Settings = game.CoreGui.Main.Backing.Pages.Settings
+	Speech = game.CoreGui.Main.Backing.Pages.Speech
+	SecondSpeech = game.CoreGui.Main.Backing.Pages.SecondSpeech
+	
+	function lclick()
+		if MS.Visible == true then
+			Settings.Visible = true
+			MS.Visible = false
+		elseif Speech.Visible  == true then
+			Speech.Visible = false
+			MS.Visible = true
+		elseif SecondSpeech.Visible == true then
+			SecondSpeech.Visible = false
+			Speech.Visible = true
+		end
+	end
+	
+	Left.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(PBTJ_fake_script)()
+local function YEXIWGY_fake_script() -- Right.Script 
+	local script = Instance.new('Script', Right)
+
+	Right = script.Parent
+	
+	MS = game.CoreGui.Main.Backing.Pages.MS
+	Settings = game.CoreGui.Main.Backing.Pages.Settings
+	Speech = game.CoreGui.Main.Backing.Pages.Speech
+	SecondSpeech = game.CoreGui.Main.Backing.Pages.SecondSpeech
+	
+	function lclick()
+		if MS.Visible == true then
+			Settings.Visible = true
+			MS.Visible = false
+		elseif Speech.Visible  == true then
+			Speech.Visible = false
+			MS.Visible = true
+		elseif SecondSpeech.Visible == true then
+			SecondSpeech.Visible = false
+			Speech.Visible = true
+		end
+	end
+	
+	Right.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(YEXIWGY_fake_script)()
