@@ -1032,7 +1032,7 @@ local function NTUFYU_fake_script() -- Greeting.Script
 
     function lclick()
         local args = {
-            [1] = "Hello, and welcome to Kohaú! My name is Snot, and I will be serving you today. How many people will be accommodating you today?",
+            [1] = "Hello, and welcome to Kohaú! My name is Colin, and I will be serving you today. How many people will be accommodating you today?",
             [2] = "All"
         }
     
