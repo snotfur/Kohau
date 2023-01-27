@@ -3,7 +3,6 @@ game:GetService("Players").babygwore.PlayerGui.UserInterface.Cooking.Tasks:Destr
 
 wait(.2)
 
-local MainFrame = Instance.new("ScreenGui")
 local Codes = Instance.new("ImageLabel")
 local Banner1 = Instance.new("ImageLabel")
 local TextLabel1 = Instance.new("TextLabel")
@@ -67,40 +66,52 @@ local UICorner_19 = Instance.new("UICorner")
 local Drinks = Instance.new("TextButton")
 local UICorner_20 = Instance.new("UICorner")
 local TextLabel_13 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
 local Appetizers = Instance.new("TextButton")
 local UICorner_21 = Instance.new("UICorner")
 local TextLabel_14 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
 local Entree = Instance.new("TextButton")
 local UICorner_22 = Instance.new("UICorner")
 local TextLabel_15 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
 local Dessert = Instance.new("TextButton")
 local UICorner_23 = Instance.new("UICorner")
 local TextLabel_16 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
 local ComingRightUp = Instance.new("TextButton")
 local UICorner_24 = Instance.new("UICorner")
 local TextLabel_17 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint")
 local ExcellentChoice = Instance.new("TextButton")
 local UICorner_25 = Instance.new("UICorner")
 local TextLabel_18 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_8 = Instance.new("UIAspectRatioConstraint")
 local MoveOn = Instance.new("TextButton")
 local UICorner_26 = Instance.new("UICorner")
 local TextLabel_19 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_9 = Instance.new("UIAspectRatioConstraint")
 local OneMoment = Instance.new("TextButton")
 local UICorner_27 = Instance.new("UICorner")
 local TextLabel_20 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_10 = Instance.new("UIAspectRatioConstraint")
 local Okay = Instance.new("TextButton")
 local UICorner_28 = Instance.new("UICorner")
 local TextLabel_21 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_11 = Instance.new("UIAspectRatioConstraint")
 local SureThing = Instance.new("TextButton")
 local UICorner_29 = Instance.new("UICorner")
 local TextLabel_22 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_12 = Instance.new("UIAspectRatioConstraint")
 local UIListLayout_3 = Instance.new("UIListLayout")
 local YoureWelcome = Instance.new("TextButton")
 local UICorner_30 = Instance.new("UICorner")
 local TextLabel_23 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_13 = Instance.new("UIAspectRatioConstraint")
 local SorryForTheWait = Instance.new("TextButton")
 local UICorner_31 = Instance.new("UICorner")
 local TextLabel_24 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_14 = Instance.new("UIAspectRatioConstraint")
 local Tabs = Instance.new("Frame")
 local UIListLayout_4 = Instance.new("UIListLayout")
 local UICorner_32 = Instance.new("UICorner")
@@ -119,20 +130,14 @@ local TextLabel_28 = Instance.new("TextLabel")
 
 --Properties:
 
-MainFrame.Name = "MainFrame"
-MainFrame.Parent = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames
-MainFrame.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-MainFrame.ResetOnSpawn = false
-
 Codes.Name = "Codes"
-Codes.Parent = MainFrame
+Codes.Parent = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames
 Codes.Active = true
 Codes.AnchorPoint = Vector2.new(0.5, 0.5)
 Codes.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Codes.BackgroundTransparency = 1.000
 Codes.Position = UDim2.new(0.499344707, 0, 0.498942912, 0)
 Codes.Size = UDim2.new(0.504057288, 0, 0.558892548, 0)
-Codes.Visible = false
 Codes.Image = "http://www.roblox.com/asset/?id=6439845095"
 
 Banner1.Name = "Banner1"
@@ -546,7 +551,7 @@ RightScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 RightScrollingFrame.BackgroundTransparency = 1.000
 RightScrollingFrame.Position = UDim2.new(0.756922424, 0, 0.50000006, 0)
 RightScrollingFrame.Size = UDim2.new(0.486155212, 0, 1, 0)
-RightScrollingFrame.CanvasSize = UDim2.new(0, 0, 1.79999995, 0)
+RightScrollingFrame.CanvasSize = UDim2.new(0, 0, 2.79999995, 0)
 RightScrollingFrame.HorizontalScrollBarInset = Enum.ScrollBarInset.ScrollBar
 RightScrollingFrame.ScrollBarThickness = 0
 
@@ -562,6 +567,7 @@ Drinks.Font = Enum.Font.SourceSans
 Drinks.Text = ""
 Drinks.TextColor3 = Color3.fromRGB(0, 0, 0)
 Drinks.TextSize = 14.000
+Drinks.TextWrapped = true
 
 UICorner_20.Parent = Drinks
 
@@ -575,6 +581,10 @@ TextLabel_13.Text = "Drinks"
 TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_13.TextSize = 14.000
 
+UIAspectRatioConstraint_3.Parent = Drinks
+UIAspectRatioConstraint_3.AspectRatio = 2.500
+UIAspectRatioConstraint_3.AspectType = Enum.AspectType.ScaleWithParentSize
+
 Appetizers.Name = "Appetizers"
 Appetizers.Parent = RightScrollingFrame
 Appetizers.AnchorPoint = Vector2.new(0.5, 0)
@@ -585,6 +595,7 @@ Appetizers.Font = Enum.Font.SourceSans
 Appetizers.Text = ""
 Appetizers.TextColor3 = Color3.fromRGB(0, 0, 0)
 Appetizers.TextSize = 14.000
+Appetizers.TextWrapped = true
 
 UICorner_21.Parent = Appetizers
 
@@ -598,6 +609,10 @@ TextLabel_14.Text = "Appetizers"
 TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_14.TextSize = 14.000
 
+UIAspectRatioConstraint_4.Parent = Appetizers
+UIAspectRatioConstraint_4.AspectRatio = 2.500
+UIAspectRatioConstraint_4.AspectType = Enum.AspectType.ScaleWithParentSize
+
 Entree.Name = "Entree"
 Entree.Parent = RightScrollingFrame
 Entree.AnchorPoint = Vector2.new(0.5, 0)
@@ -608,6 +623,7 @@ Entree.Font = Enum.Font.SourceSans
 Entree.Text = ""
 Entree.TextColor3 = Color3.fromRGB(0, 0, 0)
 Entree.TextSize = 14.000
+Entree.TextWrapped = true
 
 UICorner_22.Parent = Entree
 
@@ -621,6 +637,10 @@ TextLabel_15.Text = "Entree"
 TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_15.TextSize = 14.000
 
+UIAspectRatioConstraint_5.Parent = Entree
+UIAspectRatioConstraint_5.AspectRatio = 2.500
+UIAspectRatioConstraint_5.AspectType = Enum.AspectType.ScaleWithParentSize
+
 Dessert.Name = "Dessert"
 Dessert.Parent = RightScrollingFrame
 Dessert.AnchorPoint = Vector2.new(0.5, 0)
@@ -631,6 +651,7 @@ Dessert.Font = Enum.Font.SourceSans
 Dessert.Text = ""
 Dessert.TextColor3 = Color3.fromRGB(0, 0, 0)
 Dessert.TextSize = 14.000
+Dessert.TextWrapped = true
 
 UICorner_23.Parent = Dessert
 
@@ -644,6 +665,10 @@ TextLabel_16.Text = "Desserts"
 TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_16.TextSize = 14.000
 
+UIAspectRatioConstraint_6.Parent = Dessert
+UIAspectRatioConstraint_6.AspectRatio = 2.500
+UIAspectRatioConstraint_6.AspectType = Enum.AspectType.ScaleWithParentSize
+
 ComingRightUp.Name = "ComingRightUp"
 ComingRightUp.Parent = RightScrollingFrame
 ComingRightUp.AnchorPoint = Vector2.new(0.5, 0)
@@ -654,6 +679,7 @@ ComingRightUp.Font = Enum.Font.SourceSans
 ComingRightUp.Text = ""
 ComingRightUp.TextColor3 = Color3.fromRGB(0, 0, 0)
 ComingRightUp.TextSize = 14.000
+ComingRightUp.TextWrapped = true
 
 UICorner_24.Parent = ComingRightUp
 
@@ -665,9 +691,12 @@ TextLabel_17.ZIndex = 0
 TextLabel_17.Font = Enum.Font.GothamBlack
 TextLabel_17.Text = "Coming right up!"
 TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_17.TextScaled = true
 TextLabel_17.TextSize = 14.000
 TextLabel_17.TextWrapped = true
+
+UIAspectRatioConstraint_7.Parent = ComingRightUp
+UIAspectRatioConstraint_7.AspectRatio = 2.500
+UIAspectRatioConstraint_7.AspectType = Enum.AspectType.ScaleWithParentSize
 
 ExcellentChoice.Name = "ExcellentChoice"
 ExcellentChoice.Parent = RightScrollingFrame
@@ -679,6 +708,7 @@ ExcellentChoice.Font = Enum.Font.SourceSans
 ExcellentChoice.Text = ""
 ExcellentChoice.TextColor3 = Color3.fromRGB(0, 0, 0)
 ExcellentChoice.TextSize = 14.000
+ExcellentChoice.TextWrapped = true
 
 UICorner_25.Parent = ExcellentChoice
 
@@ -690,9 +720,12 @@ TextLabel_18.ZIndex = 0
 TextLabel_18.Font = Enum.Font.GothamBlack
 TextLabel_18.Text = "Excellent choice!"
 TextLabel_18.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_18.TextScaled = true
 TextLabel_18.TextSize = 14.000
 TextLabel_18.TextWrapped = true
+
+UIAspectRatioConstraint_8.Parent = ExcellentChoice
+UIAspectRatioConstraint_8.AspectRatio = 2.500
+UIAspectRatioConstraint_8.AspectType = Enum.AspectType.ScaleWithParentSize
 
 MoveOn.Name = "MoveOn"
 MoveOn.Parent = RightScrollingFrame
@@ -704,6 +737,7 @@ MoveOn.Font = Enum.Font.SourceSans
 MoveOn.Text = ""
 MoveOn.TextColor3 = Color3.fromRGB(0, 0, 0)
 MoveOn.TextSize = 14.000
+MoveOn.TextWrapped = true
 
 UICorner_26.Parent = MoveOn
 
@@ -715,9 +749,12 @@ TextLabel_19.ZIndex = 0
 TextLabel_19.Font = Enum.Font.GothamBlack
 TextLabel_19.Text = "Ready to move on?"
 TextLabel_19.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_19.TextScaled = true
 TextLabel_19.TextSize = 14.000
 TextLabel_19.TextWrapped = true
+
+UIAspectRatioConstraint_9.Parent = MoveOn
+UIAspectRatioConstraint_9.AspectRatio = 2.500
+UIAspectRatioConstraint_9.AspectType = Enum.AspectType.ScaleWithParentSize
 
 OneMoment.Name = "OneMoment"
 OneMoment.Parent = RightScrollingFrame
@@ -729,6 +766,7 @@ OneMoment.Font = Enum.Font.SourceSans
 OneMoment.Text = ""
 OneMoment.TextColor3 = Color3.fromRGB(0, 0, 0)
 OneMoment.TextSize = 14.000
+OneMoment.TextWrapped = true
 
 UICorner_27.Parent = OneMoment
 
@@ -740,9 +778,12 @@ TextLabel_20.ZIndex = 0
 TextLabel_20.Font = Enum.Font.GothamBlack
 TextLabel_20.Text = "One moment!"
 TextLabel_20.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_20.TextScaled = true
 TextLabel_20.TextSize = 14.000
 TextLabel_20.TextWrapped = true
+
+UIAspectRatioConstraint_10.Parent = OneMoment
+UIAspectRatioConstraint_10.AspectRatio = 2.500
+UIAspectRatioConstraint_10.AspectType = Enum.AspectType.ScaleWithParentSize
 
 Okay.Name = "Okay"
 Okay.Parent = RightScrollingFrame
@@ -754,6 +795,7 @@ Okay.Font = Enum.Font.SourceSans
 Okay.Text = ""
 Okay.TextColor3 = Color3.fromRGB(0, 0, 0)
 Okay.TextSize = 14.000
+Okay.TextWrapped = true
 
 UICorner_28.Parent = Okay
 
@@ -767,6 +809,10 @@ TextLabel_21.Text = "Okay!"
 TextLabel_21.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_21.TextSize = 14.000
 
+UIAspectRatioConstraint_11.Parent = Okay
+UIAspectRatioConstraint_11.AspectRatio = 2.500
+UIAspectRatioConstraint_11.AspectType = Enum.AspectType.ScaleWithParentSize
+
 SureThing.Name = "SureThing"
 SureThing.Parent = RightScrollingFrame
 SureThing.AnchorPoint = Vector2.new(0.5, 0)
@@ -777,6 +823,7 @@ SureThing.Font = Enum.Font.SourceSans
 SureThing.Text = ""
 SureThing.TextColor3 = Color3.fromRGB(0, 0, 0)
 SureThing.TextSize = 14.000
+SureThing.TextWrapped = true
 
 UICorner_29.Parent = SureThing
 
@@ -790,10 +837,14 @@ TextLabel_22.Text = "Sure thing!"
 TextLabel_22.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_22.TextSize = 14.000
 
+UIAspectRatioConstraint_12.Parent = SureThing
+UIAspectRatioConstraint_12.AspectRatio = 2.500
+UIAspectRatioConstraint_12.AspectType = Enum.AspectType.ScaleWithParentSize
+
 UIListLayout_3.Parent = RightScrollingFrame
 UIListLayout_3.HorizontalAlignment = Enum.HorizontalAlignment.Center
 UIListLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
-UIListLayout_3.Padding = UDim.new(0.0199999996, 0)
+UIListLayout_3.Padding = UDim.new(0.00999999978, 0)
 
 YoureWelcome.Name = "YoureWelcome"
 YoureWelcome.Parent = RightScrollingFrame
@@ -805,6 +856,7 @@ YoureWelcome.Font = Enum.Font.SourceSans
 YoureWelcome.Text = ""
 YoureWelcome.TextColor3 = Color3.fromRGB(0, 0, 0)
 YoureWelcome.TextSize = 14.000
+YoureWelcome.TextWrapped = true
 
 UICorner_30.Parent = YoureWelcome
 
@@ -816,9 +868,12 @@ TextLabel_23.ZIndex = 0
 TextLabel_23.Font = Enum.Font.GothamBlack
 TextLabel_23.Text = "You're welcome!"
 TextLabel_23.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_23.TextScaled = true
 TextLabel_23.TextSize = 14.000
 TextLabel_23.TextWrapped = true
+
+UIAspectRatioConstraint_13.Parent = YoureWelcome
+UIAspectRatioConstraint_13.AspectRatio = 2.500
+UIAspectRatioConstraint_13.AspectType = Enum.AspectType.ScaleWithParentSize
 
 SorryForTheWait.Name = "SorryForTheWait"
 SorryForTheWait.Parent = RightScrollingFrame
@@ -830,6 +885,7 @@ SorryForTheWait.Font = Enum.Font.SourceSans
 SorryForTheWait.Text = ""
 SorryForTheWait.TextColor3 = Color3.fromRGB(0, 0, 0)
 SorryForTheWait.TextSize = 14.000
+SorryForTheWait.TextWrapped = true
 
 UICorner_31.Parent = SorryForTheWait
 
@@ -841,9 +897,12 @@ TextLabel_24.ZIndex = 0
 TextLabel_24.Font = Enum.Font.GothamBlack
 TextLabel_24.Text = "Sorry for the wait."
 TextLabel_24.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_24.TextScaled = true
 TextLabel_24.TextSize = 14.000
 TextLabel_24.TextWrapped = true
+
+UIAspectRatioConstraint_14.Parent = SorryForTheWait
+UIAspectRatioConstraint_14.AspectRatio = 2.500
+UIAspectRatioConstraint_14.AspectType = Enum.AspectType.ScaleWithParentSize
 
 Tabs.Name = "Tabs"
 Tabs.Parent = Main
@@ -953,443 +1012,443 @@ TextLabel_28.TextSize = 14.000
 
 -- Scripts:
 
-local function XXSXY_fake_script() -- Close.Script 
-	local script = Instance.new('Script', Close)
+local function OTYMOS_fake_script() -- Close.Script 
+    local script = Instance.new('Script', Close)
 
-	Codes = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes
-	
-	function lclick()
-		Codes.Visible = false
-	end
-	
-	script.Parent.MouseButton1Click:Connect(lclick)
+    Codes = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes
+    
+    function lclick()
+        Codes.Visible = false
+    end
+    
+    script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(XXSXY_fake_script)()
-local function ECZOQM_fake_script() -- MinigameSkip.Script 
-	local script = Instance.new('Script', MinigameSkip)
+coroutine.wrap(OTYMOS_fake_script)()
+local function JAHL_fake_script() -- MinigameSkip.Script 
+    local script = Instance.new('Script', MinigameSkip)
 
-	MinigameSkipButton = script.Parent
-	
-	function lclick()
-		game:GetService("ReplicatedStorage").Packages.Knit.Services.CookingService.RE.MinigameFinished:FireServer()
-	end
-	
-	MinigameSkipButton.MouseBUtton1Click:Connect(lclick)
+    MinigameSkipButton = script.Parent
+    
+    function lclick()
+        game:GetService("ReplicatedStorage").Packages.Knit.Services.CookingService.RE.MinigameFinished:FireServer()
+    end
+    
+    MinigameSkipButton.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(ECZOQM_fake_script)()
-local function HMCXHZ_fake_script() -- NoUniform.Script 
-	local script = Instance.new('Script', NoUniform)
+coroutine.wrap(JAHL_fake_script)()
+local function QQAMAAF_fake_script() -- NoUniform.Script 
+    local script = Instance.new('Script', NoUniform)
 
-	NoUniformButton = script.Parent
-	
-	function lclick()
-		game:GetService("ReplicatedStorage").Packages.Knit.Services.UniformService.RE.UnequipUniform:FireServer()
-	end
-	
-	NoUniformButton.MouseBUtton1Click:Connect(lclick)
+    NoUniformButton = script.Parent
+    
+    function lclick()
+        game:GetService("ReplicatedStorage").Packages.Knit.Services.UniformService.RE.UnequipUniform:FireServer()
+    end
+    
+    NoUniformButton.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(HMCXHZ_fake_script)()
-local function HRWHNSJ_fake_script() -- InventoryEmpty.Script 
-	local script = Instance.new('Script', InventoryEmpty)
+coroutine.wrap(QQAMAAF_fake_script)()
+local function OTOD_fake_script() -- InventoryEmpty.Script 
+    local script = Instance.new('Script', InventoryEmpty)
 
-	EmptyInventoryButton = script.Parent
-	
-	function lclick()
-		local args = {
-			[1] = 1,
-			[2] = workspace.Assets.Cooking.Trashcans.TrashCan.Interact,
-			[3] = "Trash Food"
-		}
-	
-		game:GetService("ReplicatedStorage").Packages.Knit.Services.InteractionService.RF.Clicked:InvokeServer(unpack(args))
-	end
-	
-	EmptyInventoryButton.MouseBUtton1Click:Connect(lclick)
+    EmptyInventoryButton = script.Parent
+    
+    function lclick()
+        local args = {
+            [1] = 1,
+            [2] = workspace.Assets.Cooking.Trashcans.TrashCan.Interact,
+            [3] = "Trash Food"
+        }
+    
+        game:GetService("ReplicatedStorage").Packages.Knit.Services.InteractionService.RF.Clicked:InvokeServer(unpack(args))
+    end
+    
+    EmptyInventoryButton.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(HRWHNSJ_fake_script)()
-local function LQBDTCT_fake_script() -- DraggableUi.Script 
-	local script = Instance.new('Script', DraggableUi)
+coroutine.wrap(OTOD_fake_script)()
+local function STSSI_fake_script() -- DraggableUi.Script 
+    local script = Instance.new('Script', DraggableUi)
 
-	DraggableUi = script.Parent
-	
-	function lclick()
-		game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes.Draggable = true
-	end
-	
-	DraggableUi.MouseBUtton1Click:Connect(lclick)
+    DraggableUi = script.Parent
+    
+    function lclick()
+        game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes.Draggable = true
+    end
+    
+    DraggableUi.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(LQBDTCT_fake_script)()
-local function ZVPJGJ_fake_script() -- RemoveAd.Script 
-	local script = Instance.new('Script', RemoveAd)
+coroutine.wrap(STSSI_fake_script)()
+local function LYOEGZ_fake_script() -- RemoveAd.Script 
+    local script = Instance.new('Script', RemoveAd)
 
-	function lclick()
-	
-		game.Workspace.Boards:Destroy()
-	
-	end
-	
-	script.Parent.MouseButton1Click:Connect(lclick)
+    function lclick()
+    
+        game.Workspace.Boards:Destroy()
+    
+    end
+    
+    script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(ZVPJGJ_fake_script)()
-local function YXSX_fake_script() -- Greeting.Script 
-	local script = Instance.new('Script', Greeting)
+coroutine.wrap(LYOEGZ_fake_script)()
+local function IHVFY_fake_script() -- Greeting.Script 
+    local script = Instance.new('Script', Greeting)
 
-	function lclick()
-		local args = {
-			[1] = "Hello, and welcome to Kohaú! My name is Colin, and I will be serving you today. How many people will be accommodating you today?",
-			[2] = "All"
-		}
-	
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
-	end
-	
-	script.Parent.MouseButton1Click:Connect(lclick)
+    function lclick()
+        local args = {
+            [1] = "Hello, and welcome to Kohaú! My name is Colin, and I will be serving you today. How many people will be accommodating you today?",
+            [2] = "All"
+        }
+    
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+    end
+    
+    script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(YXSX_fake_script)()
-local function DUBYHY_fake_script() -- Floor.Script 
-	local script = Instance.new('Script', Floor)
+coroutine.wrap(IHVFY_fake_script)()
+local function ELVS_fake_script() -- Floor.Script 
+    local script = Instance.new('Script', Floor)
 
-	function lclick()
-		local args = {
-			[1] = "Upstairs or downstairs?",
-			[2] = "All"
-		}
-	
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
-	end
-	
-	script.Parent.MouseButton1Click:Connect(lclick)
+    function lclick()
+        local args = {
+            [1] = "Upstairs or downstairs?",
+            [2] = "All"
+        }
+    
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+    end
+    
+    script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(DUBYHY_fake_script)()
-local function IIBEWZ_fake_script() -- TableType.Script 
-	local script = Instance.new('Script', TableType)
+coroutine.wrap(ELVS_fake_script)()
+local function XBVMIH_fake_script() -- TableType.Script 
+    local script = Instance.new('Script', TableType)
 
-	function lclick()
-		local args = {
-			[1] = "Would you like to sit at a hibachi table, booth, table, or special dining area? (must have gamepass)",
-			[2] = "All"
-		}
-	
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
-	end
-	
-	script.Parent.MouseButton1Click:Connect(lclick)
+    function lclick()
+        local args = {
+            [1] = "Would you like to sit at a hibachi table, booth, table, or special dining area? (must have gamepass)",
+            [2] = "All"
+        }
+    
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+    end
+    
+    script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(IIBEWZ_fake_script)()
-local function CZUR_fake_script() -- Alright.Script 
-	local script = Instance.new('Script', Alright)
+coroutine.wrap(XBVMIH_fake_script)()
+local function CMSCWXO_fake_script() -- Alright.Script 
+    local script = Instance.new('Script', Alright)
 
-	function lclick()
-		local args = {
-			[1] = "Alrighty!",
-			[2] = "All"
-		}
-	
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
-	end
-	
-	script.Parent.MouseButton1Click:Connect(lclick)
+    function lclick()
+        local args = {
+            [1] = "Alrighty!",
+            [2] = "All"
+        }
+    
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+    end
+    
+    script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(CZUR_fake_script)()
-local function MIQM_fake_script() -- FollowMe.Script 
-	local script = Instance.new('Script', FollowMe)
+coroutine.wrap(CMSCWXO_fake_script)()
+local function XYDXZ_fake_script() -- FollowMe.Script 
+    local script = Instance.new('Script', FollowMe)
 
-	function lclick()
-		local args = {
-			[1] = "Please, follow me!",
-			[2] = "All"
-		}
-	
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
-	end
-	
-	script.Parent.MouseButton1Click:Connect(lclick)
+    function lclick()
+        local args = {
+            [1] = "Please, follow me!",
+            [2] = "All"
+        }
+    
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+    end
+    
+    script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(MIQM_fake_script)()
-local function EOZNJK_fake_script() -- Farewell.Script 
-	local script = Instance.new('Script', Farewell)
+coroutine.wrap(XYDXZ_fake_script)()
+local function TIZEO_fake_script() -- Farewell.Script 
+    local script = Instance.new('Script', Farewell)
 
-	function lclick()
-		local args = {
-			[1] = "Thank you for visting Kohaú! It was a pleasure serving you today. (you can leave a tip if you'd like!)",
-			[2] = "All"
-		}
-	
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
-	end
-	
-	script.Parent.MouseButton1Click:Connect(lclick)
+    function lclick()
+        local args = {
+            [1] = "Thank you for visting Kohaú! It was a pleasure serving you today. (you can leave a tip if you'd like!)",
+            [2] = "All"
+        }
+    
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+    end
+    
+    script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(EOZNJK_fake_script)()
-local function DQFMUUG_fake_script() -- Drinks.Script 
-	local script = Instance.new('Script', Drinks)
+coroutine.wrap(TIZEO_fake_script)()
+local function XHKC_fake_script() -- Drinks.Script 
+    local script = Instance.new('Script', Drinks)
 
-	function lclick()
-		local args = {
-			[1] = "Can I start you off with any drinks?",
-			[2] = "All"
-		}
-	
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
-	end
-	
-	script.Parent.MouseButton1Click:Connect(lclick)
+    function lclick()
+        local args = {
+            [1] = "Can I start you off with any drinks?",
+            [2] = "All"
+        }
+    
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+    end
+    
+    script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(DQFMUUG_fake_script)()
-local function HURKHBS_fake_script() -- Appetizers.Script 
-	local script = Instance.new('Script', Appetizers)
+coroutine.wrap(XHKC_fake_script)()
+local function FPDD_fake_script() -- Appetizers.Script 
+    local script = Instance.new('Script', Appetizers)
 
-	function lclick()
-		local args = {
-			[1] = "Can I accomodate you with any appetizers?",
-			[2] = "All"
-		}
-	
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
-	end
-	
-	script.Parent.MouseButton1Click:Connect(lclick)
+    function lclick()
+        local args = {
+            [1] = "Can I accomodate you with any appetizers?",
+            [2] = "All"
+        }
+    
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+    end
+    
+    script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(HURKHBS_fake_script)()
-local function DNLH_fake_script() -- Entree.Script 
-	local script = Instance.new('Script', Entree)
+coroutine.wrap(FPDD_fake_script)()
+local function IKSZ_fake_script() -- Entree.Script 
+    local script = Instance.new('Script', Entree)
 
-	function lclick()
-		local args = {
-			[1] = "And now time for the best part of dining at Kohaú! Are you ready to order your entree meal?",
-			[2] = "All"
-		}
-	
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
-	end
-	
-	script.Parent.MouseButton1Click:Connect(lclick)
+    function lclick()
+        local args = {
+            [1] = "And now time for the best part of dining at Kohaú! Are you ready to order your entree meal?",
+            [2] = "All"
+        }
+    
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+    end
+    
+    script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(DNLH_fake_script)()
-local function OHDWGV_fake_script() -- Dessert.Script 
-	local script = Instance.new('Script', Dessert)
+coroutine.wrap(IKSZ_fake_script)()
+local function ORVC_fake_script() -- Dessert.Script 
+    local script = Instance.new('Script', Dessert)
 
-	function lclick()
-		local args = {
-			[1] = "To finish off this meal, Would you like any desserts?",
-			[2] = "All"
-		}
-	
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
-	end
-	
-	script.Parent.MouseButton1Click:Connect(lclick)
+    function lclick()
+        local args = {
+            [1] = "To finish off this meal, Would you like any desserts?",
+            [2] = "All"
+        }
+    
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+    end
+    
+    script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(OHDWGV_fake_script)()
-local function KHBAGZI_fake_script() -- ComingRightUp.Script 
-	local script = Instance.new('Script', ComingRightUp)
+coroutine.wrap(ORVC_fake_script)()
+local function TJFN_fake_script() -- ComingRightUp.Script 
+    local script = Instance.new('Script', ComingRightUp)
 
-	function lclick()
-		local args = {
-			[1] = "Coming right up!",
-			[2] = "All"
-		}
-	
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
-	end
-	
-	script.Parent.MouseButton1Click:Connect(lclick)
+    function lclick()
+        local args = {
+            [1] = "Coming right up!",
+            [2] = "All"
+        }
+    
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+    end
+    
+    script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(KHBAGZI_fake_script)()
-local function VDFNGL_fake_script() -- ExcellentChoice.Script 
-	local script = Instance.new('Script', ExcellentChoice)
+coroutine.wrap(TJFN_fake_script)()
+local function HECVMGI_fake_script() -- ExcellentChoice.Script 
+    local script = Instance.new('Script', ExcellentChoice)
 
-	function lclick()
-		local args = {
-			[1] = "Excellent choice!",
-			[2] = "All"
-		}
-	
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
-	end
-	
-	script.Parent.MouseButton1Click:Connect(lclick)
+    function lclick()
+        local args = {
+            [1] = "Excellent choice!",
+            [2] = "All"
+        }
+    
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+    end
+    
+    script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(VDFNGL_fake_script)()
-local function OSXDOAK_fake_script() -- MoveOn.Script 
-	local script = Instance.new('Script', MoveOn)
+coroutine.wrap(HECVMGI_fake_script)()
+local function FAOUY_fake_script() -- MoveOn.Script 
+    local script = Instance.new('Script', MoveOn)
 
-	function lclick()
-		local args = {
-			[1] = "Are you ready to move on?",
-			[2] = "All"
-		}
-	
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
-	end
-	
-	script.Parent.MouseButton1Click:Connect(lclick)
+    function lclick()
+        local args = {
+            [1] = "Are you ready to move on?",
+            [2] = "All"
+        }
+    
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+    end
+    
+    script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(OSXDOAK_fake_script)()
-local function IXKOW_fake_script() -- OneMoment.Script 
-	local script = Instance.new('Script', OneMoment)
+coroutine.wrap(FAOUY_fake_script)()
+local function XNPQUO_fake_script() -- OneMoment.Script 
+    local script = Instance.new('Script', OneMoment)
 
-	function lclick()
-		local args = {
-			[1] = "One moment, please!",
-			[2] = "All"
-		}
-	
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
-	end
-	
-	script.Parent.MouseButton1Click:Connect(lclick)
+    function lclick()
+        local args = {
+            [1] = "One moment, please!",
+            [2] = "All"
+        }
+    
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+    end
+    
+    script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(IXKOW_fake_script)()
-local function JUHQ_fake_script() -- Okay.Script 
-	local script = Instance.new('Script', Okay)
+coroutine.wrap(XNPQUO_fake_script)()
+local function YNMNB_fake_script() -- Okay.Script 
+    local script = Instance.new('Script', Okay)
 
-	function lclick()
-		local args = {
-			[1] = "Okay!",
-			[2] = "All"
-		}
-	
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
-	end
-	
-	script.Parent.MouseButton1Click:Connect(lclick)
+    function lclick()
+        local args = {
+            [1] = "Okay!",
+            [2] = "All"
+        }
+    
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+    end
+    
+    script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(JUHQ_fake_script)()
-local function GLGJ_fake_script() -- SureThing.Script 
-	local script = Instance.new('Script', SureThing)
+coroutine.wrap(YNMNB_fake_script)()
+local function GIYPEW_fake_script() -- SureThing.Script 
+    local script = Instance.new('Script', SureThing)
 
-	function lclick()
-		local args = {
-			[1] = "Sure thing!",
-			[2] = "All"
-		}
-	
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
-	end
-	
-	script.Parent.MouseButton1Click:Connect(lclick)
+    function lclick()
+        local args = {
+            [1] = "Sure thing!",
+            [2] = "All"
+        }
+    
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+    end
+    
+    script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(GLGJ_fake_script)()
-local function DBVGY_fake_script() -- YoureWelcome.Script 
-	local script = Instance.new('Script', YoureWelcome)
+coroutine.wrap(GIYPEW_fake_script)()
+local function OFYMDWG_fake_script() -- YoureWelcome.Script 
+    local script = Instance.new('Script', YoureWelcome)
 
-	function lclick()
-		local args = {
-			[1] = "You're welcome!",
-			[2] = "All"
-		}
-	
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
-	end
-	
-	script.Parent.MouseButton1Click:Connect(lclick)
+    function lclick()
+        local args = {
+            [1] = "You're welcome!",
+            [2] = "All"
+        }
+    
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+    end
+    
+    script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(DBVGY_fake_script)()
-local function FGSCXOK_fake_script() -- SorryForTheWait.Script 
-	local script = Instance.new('Script', SorryForTheWait)
+coroutine.wrap(OFYMDWG_fake_script)()
+local function PBXKY_fake_script() -- SorryForTheWait.Script 
+    local script = Instance.new('Script', SorryForTheWait)
 
-	function lclick()
-		local args = {
-			[1] = "Sorry for the wait.",
-			[2] = "All"
-		}
-	
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
-	end
-	
-	script.Parent.MouseButton1Click:Connect(lclick)
+    function lclick()
+        local args = {
+            [1] = "Sorry for the wait.",
+            [2] = "All"
+        }
+    
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+    end
+    
+    script.Parent.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(FGSCXOK_fake_script)()
-local function BLHTI_fake_script() -- DiningIn.Script 
-	local script = Instance.new('Script', DiningIn)
+coroutine.wrap(PBXKY_fake_script)()
+local function FYVZWB_fake_script() -- DiningIn.Script 
+    local script = Instance.new('Script', DiningIn)
 
-	DiningInButton = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Tabs.DiningIn
-	
-	NotepadGui = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.NotepadGui
-	TakeOutGui = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.TakeOutGui
-	DiningInGui = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.DiningInGui
-	OptionsGui = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.OptionsGui
-	
-	function lclick()
-	
-		TakeOutGui.Visible = false
-		OptionsGui.Visible = false
-		NotepadGui.Visible = false
-		DiningInGui.Visible = true
-	
-	end
-	
-	DiningInButton.MouseButton1Click:Connect(lclick)
+    DiningInButton = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Tabs.DiningIn
+    
+    NotepadGui = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.NotepadGui
+    TakeOutGui = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.TakeOutGui
+    DiningInGui = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.DiningInGui
+    OptionsGui = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.OptionsGui
+    
+    function lclick()
+    
+        TakeOutGui.Visible = false
+        OptionsGui.Visible = false
+        NotepadGui.Visible = false
+        DiningInGui.Visible = true
+    
+    end
+    
+    DiningInButton.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(BLHTI_fake_script)()
-local function VDZRZ_fake_script() -- TakeOut.Script 
-	local script = Instance.new('Script', TakeOut)
+coroutine.wrap(FYVZWB_fake_script)()
+local function XJKOZZ_fake_script() -- TakeOut.Script 
+    local script = Instance.new('Script', TakeOut)
 
-	TakeOutButton = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Tabs.TakeOut
-	
-	NotepadGui = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.NotepadGui
-	TakeOutGui = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.TakeOutGui
-	DiningInGui = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.DiningInGui
-	OptionsGui = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.OptionsGui
-	
-	function lclick()
-	
-		NotepadGui.Visible = false
-		DiningInGui.Visible = false
-		OptionsGui.Visible = false
-		wait(.1)
-		TakeOutGui.Visible = true
-	
-	end
-	
-	TakeOutButton.MouseButton1Click:Connect(lclick)
+    TakeOutButton = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Tabs.TakeOut
+    
+    NotepadGui = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.NotepadGui
+    TakeOutGui = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.TakeOutGui
+    DiningInGui = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.DiningInGui
+    OptionsGui = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.OptionsGui
+    
+    function lclick()
+    
+        NotepadGui.Visible = false
+        DiningInGui.Visible = false
+        OptionsGui.Visible = false
+        wait(.1)
+        TakeOutGui.Visible = true
+    
+    end
+    
+    TakeOutButton.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(VDZRZ_fake_script)()
-local function ZEPD_fake_script() -- Notepad.Script 
-	local script = Instance.new('Script', Notepad)
+coroutine.wrap(XJKOZZ_fake_script)()
+local function ZSVCMBT_fake_script() -- Notepad.Script 
+    local script = Instance.new('Script', Notepad)
 
-	NotepadButton = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Tabs.Notepad
-	
-	NotepadGui = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.NotepadGui
-	TakeOutGui = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.TakeOutGui
-	DiningInGui = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.DiningInGui
-	OptionsGui = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.OptionsGui
-	
-	function lclick()
-		
-		TakeOutGui.Visible = false
-		DiningInGui.Visible = false
-		OptionsGui.Visible = false
-		NotepadGui.Visible = true
-		
-	end
-	
-	NotepadButton.MouseButton1Click:Connect(lclick)
+    NotepadButton = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Tabs.Notepad
+    
+    NotepadGui = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.NotepadGui
+    TakeOutGui = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.TakeOutGui
+    DiningInGui = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.DiningInGui
+    OptionsGui = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.OptionsGui
+    
+    function lclick()
+        
+        TakeOutGui.Visible = false
+        DiningInGui.Visible = false
+        OptionsGui.Visible = false
+        NotepadGui.Visible = true
+        
+    end
+    
+    NotepadButton.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(ZEPD_fake_script)()
-local function ORXV_fake_script() -- Options.Script 
-	local script = Instance.new('Script', Options)
+coroutine.wrap(ZSVCMBT_fake_script)()
+local function LBQS_fake_script() -- Options.Script 
+    local script = Instance.new('Script', Options)
 
-	OptionsButton = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Tabs.Options
-	
-	NotepadGui = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.NotepadGui
-	TakeOutGui = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.TakeOutGui
-	DiningInGui = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.DiningInGui
-	OptionsGui = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.OptionsGui
-	
-	function lclick()
-	
-		TakeOutGui.Visible = false
-		DiningInGui.Visible = false
-		NotepadGui.Visible = false
-		OptionsGui.Visible = true
-	
-	end
-	
-	OptionsButton.MouseButton1Click:Connect(lclick)
+    OptionsButton = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Tabs.Options
+    
+    NotepadGui = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.NotepadGui
+    TakeOutGui = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.TakeOutGui
+    DiningInGui = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.DiningInGui
+    OptionsGui = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.OptionsGui
+    
+    function lclick()
+    
+        TakeOutGui.Visible = falsebabygwore
+        DiningInGui.Visible = false
+        NotepadGui.Visible = false
+        OptionsGui.Visible = true
+    
+    end
+    
+    OptionsButton.MouseButton1Click:Connect(lclick)
 end
-coroutine.wrap(ORXV_fake_script)()
+coroutine.wrap(LBQS_fake_script)()
 
 wait(.2)
 
@@ -1398,18 +1457,18 @@ TwitterButton = game.Players.babygwore.PlayerGui.UserInterface.Sidebar.Codes
 CodeFrame = game.Players.babygwore.PlayerGui.UserInterface.SidebarFrames.Codes
 
 local function CKKG_fake_script()
-	local script = Instance.new('Script',game.Players.babygwore.PlayerGui.UserInterface.Sidebar.Codes)
+    local script = Instance.new('Script',game.Players.babygwore.PlayerGui.UserInterface.Sidebar.Codes)
 
-	function lclick()
-		if  CodeFrame.Visible == true then
-			CodeFrame.Visible = false else
-			if CodeFrame.Visible == false then
-				CodeFrame.Visible = true
-			end
-		end
-	end
+    function lclick()
+        if  CodeFrame.Visible == true then
+            CodeFrame.Visible = false else
+            if CodeFrame.Visible == false then
+                CodeFrame.Visible = true
+            end
+        end
+    end
 
-	TwitterButton.MouseButton1Click:Connect(lclick)
+    TwitterButton.MouseButton1Click:Connect(lclick)
 
 end
 coroutine.wrap(CKKG_fake_script)()
