@@ -1,6 +1,5 @@
 game:GetService("Players").babygwore.PlayerGui.UserInterface.SidebarFrames.Codes:Destroy()
 game:GetService("Players").babygwore.PlayerGui.UserInterface.Cooking.Tasks:Destroy()
-game:GetService("Players").babygwore.PlayerGui.UserInterface.Cooking.CurrentTask:Destroy()
 
 wait(.2)
 
