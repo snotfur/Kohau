@@ -1,6 +1,5 @@
 game:GetService("Players").Nikayah3729.PlayerGui.UserInterface.SidebarFrames.Codes:Destroy()
 game:GetService("Players").Nikayah3729.PlayerGui.UserInterface.Cooking.Tasks:Destroy()
-game:GetService("Players").Nikayah3729.PlayerGui.UserInterface.Cooking.CurrentTask:Destroy()
 
 wait(.2)
 
