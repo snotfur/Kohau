@@ -1,0 +1,1474 @@
+game:GetService("Players").colinsfur.PlayerGui.UserInterface.SidebarFrames.Codes:Destroy()
+game:GetService("Players").colinsfur.PlayerGui.UserInterface.Cooking.Tasks:Destroy()
+
+wait(.2)
+
+local Codes = Instance.new("ImageLabel")
+local Banner1 = Instance.new("ImageLabel")
+local TextLabel1 = Instance.new("TextLabel")
+local Close = Instance.new("ImageButton")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local TextLabel = Instance.new("TextLabel")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local UISizeConstraint = Instance.new("UISizeConstraint")
+local Main = Instance.new("Frame")
+local Items = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local NotepadGui = Instance.new("ImageLabel")
+local UICorner_2 = Instance.new("UICorner")
+local TextBox = Instance.new("TextBox")
+local UICorner_3 = Instance.new("UICorner")
+local OptionsGui = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local MinigameSkip = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local NoUniform = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local InventoryEmpty = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+local UIListLayout = Instance.new("UIListLayout")
+local DraggableUi = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local TextLabel_5 = Instance.new("TextLabel")
+local RemoveAd = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local TextLabel_6 = Instance.new("TextLabel")
+local TakeOutGui = Instance.new("Frame")
+local UICorner_10 = Instance.new("UICorner")
+local DiningInGui = Instance.new("Frame")
+local UICorner_11 = Instance.new("UICorner")
+local LeftScrollingFrame = Instance.new("ScrollingFrame")
+local UICorner_12 = Instance.new("UICorner")
+local UIListLayout_2 = Instance.new("UIListLayout")
+local Greeting = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local TextLabel_7 = Instance.new("TextLabel")
+local Floor = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local TextLabel_8 = Instance.new("TextLabel")
+local TableType = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local TextLabel_9 = Instance.new("TextLabel")
+local Alright = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local TextLabel_10 = Instance.new("TextLabel")
+local FollowMe = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local TextLabel_11 = Instance.new("TextLabel")
+local Farewell = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local TextLabel_12 = Instance.new("TextLabel")
+local RightScrollingFrame = Instance.new("ScrollingFrame")
+local UICorner_19 = Instance.new("UICorner")
+local Drinks = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local TextLabel_13 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local Appetizers = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local TextLabel_14 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
+local Entree = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local TextLabel_15 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
+local Dessert = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local TextLabel_16 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
+local ComingRightUp = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local TextLabel_17 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint")
+local ExcellentChoice = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local TextLabel_18 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_8 = Instance.new("UIAspectRatioConstraint")
+local MoveOn = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local TextLabel_19 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_9 = Instance.new("UIAspectRatioConstraint")
+local OneMoment = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local TextLabel_20 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_10 = Instance.new("UIAspectRatioConstraint")
+local Okay = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local TextLabel_21 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_11 = Instance.new("UIAspectRatioConstraint")
+local SureThing = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local TextLabel_22 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_12 = Instance.new("UIAspectRatioConstraint")
+local UIListLayout_3 = Instance.new("UIListLayout")
+local YoureWelcome = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
+local TextLabel_23 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_13 = Instance.new("UIAspectRatioConstraint")
+local SorryForTheWait = Instance.new("TextButton")
+local UICorner_31 = Instance.new("UICorner")
+local TextLabel_24 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_14 = Instance.new("UIAspectRatioConstraint")
+local Tabs = Instance.new("Frame")
+local UIListLayout_4 = Instance.new("UIListLayout")
+local UICorner_32 = Instance.new("UICorner")
+local DiningIn = Instance.new("TextButton")
+local UICorner_33 = Instance.new("UICorner")
+local TextLabel_25 = Instance.new("TextLabel")
+local TakeOut = Instance.new("TextButton")
+local UICorner_34 = Instance.new("UICorner")
+local TextLabel_26 = Instance.new("TextLabel")
+local Notepad = Instance.new("TextButton")
+local UICorner_35 = Instance.new("UICorner")
+local TextLabel_27 = Instance.new("TextLabel")
+local Options = Instance.new("TextButton")
+local UICorner_36 = Instance.new("UICorner")
+local TextLabel_28 = Instance.new("TextLabel")
+
+--Properties:
+
+Codes.Name = "Codes"
+Codes.Parent = game.Players.colinsfur.PlayerGui.UserInterface.SidebarFrames
+Codes.Active = true
+Codes.AnchorPoint = Vector2.new(0.5, 0.5)
+Codes.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Codes.BackgroundTransparency = 1.000
+Codes.Position = UDim2.new(0.499344707, 0, 0.498942912, 0)
+Codes.Size = UDim2.new(0.504057288, 0, 0.558892548, 0)
+Codes.Image = "http://www.roblox.com/asset/?id=6439845095"
+
+Banner1.Name = "Banner1"
+Banner1.Parent = Codes
+Banner1.AnchorPoint = Vector2.new(0.5, 0)
+Banner1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Banner1.BackgroundTransparency = 1.000
+Banner1.BorderSizePixel = 0
+Banner1.Position = UDim2.new(0.53197813, 0, 0.119279288, 0)
+Banner1.Size = UDim2.new(0.28292495, 0, 0.170907632, 0)
+Banner1.ZIndex = 2
+Banner1.Image = "http://www.roblox.com/asset/?id=6439904309"
+
+TextLabel1.Name = "TextLabel1"
+TextLabel1.Parent = Banner1
+TextLabel1.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel1.BackgroundTransparency = 1.000
+TextLabel1.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel1.Size = UDim2.new(0.784183323, 0, 0.387858719, 0)
+TextLabel1.Font = Enum.Font.GothamBlack
+TextLabel1.Text = " Kohau"
+TextLabel1.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel1.TextScaled = true
+TextLabel1.TextSize = 14.000
+TextLabel1.TextWrapped = true
+
+Close.Name = "Close"
+Close.Parent = Codes
+Close.AnchorPoint = Vector2.new(1, 0)
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.Position = UDim2.new(0.999099314, 0, 0.879893899, 0)
+Close.Size = UDim2.new(0.252358973, 0, 0.165740713, 0)
+Close.ZIndex = 2
+Close.Image = "http://www.roblox.com/asset/?id=6439876399"
+
+UIAspectRatioConstraint.Parent = Close
+UIAspectRatioConstraint.AspectRatio = 2.444
+
+TextLabel.Parent = Close
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.0790000036, 0, 0.395999998, 0)
+TextLabel.Size = UDim2.new(0.614132583, 0, 0.242021918, 0)
+TextLabel.Font = Enum.Font.GothamBlack
+TextLabel.Text = "Close"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+
+UIAspectRatioConstraint_2.Parent = Codes
+UIAspectRatioConstraint_2.AspectRatio = 1.605
+
+UISizeConstraint.Parent = Codes
+UISizeConstraint.MinSize = Vector2.new(411, 265)
+
+Main.Name = "Main"
+Main.Parent = Codes
+Main.AnchorPoint = Vector2.new(0.5, 0.5)
+Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main.BackgroundTransparency = 1.000
+Main.Position = UDim2.new(0.532999992, 0, 0.600000024, 0)
+Main.Size = UDim2.new(0.723576963, 0, 0.704319239, 0)
+
+Items.Name = "Items"
+Items.Parent = Main
+Items.AnchorPoint = Vector2.new(0.5, 0.5)
+Items.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+Items.Position = UDim2.new(0.64200002, 0, 0.532000005, 0)
+Items.Size = UDim2.new(0.714999974, 0, 0.879999995, 0)
+
+UICorner.CornerRadius = UDim.new(0.0500000007, 1)
+UICorner.Parent = Items
+
+NotepadGui.Name = "NotepadGui"
+NotepadGui.Parent = Items
+NotepadGui.AnchorPoint = Vector2.new(0.5, 0.5)
+NotepadGui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NotepadGui.Position = UDim2.new(0.500000179, 0, 0.50000006, 0)
+NotepadGui.Size = UDim2.new(1.00000024, 0, 1, 0)
+NotepadGui.Visible = false
+NotepadGui.Image = "http://www.roblox.com/asset/?id=5445829711"
+
+UICorner_2.CornerRadius = UDim.new(0.0500000007, 1)
+UICorner_2.Parent = NotepadGui
+
+TextBox.Parent = NotepadGui
+TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.BackgroundTransparency = 1.000
+TextBox.Position = UDim2.new(0, 0, 0.133944407, 0)
+TextBox.Size = UDim2.new(0, 220, 0, 142)
+TextBox.ClearTextOnFocus = false
+TextBox.Font = Enum.Font.SourceSans
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+TextBox.TextXAlignment = Enum.TextXAlignment.Left
+TextBox.TextYAlignment = Enum.TextYAlignment.Top
+
+UICorner_3.CornerRadius = UDim.new(0.0500000007, 1)
+UICorner_3.Parent = TextBox
+
+OptionsGui.Name = "OptionsGui"
+OptionsGui.Parent = Items
+OptionsGui.AnchorPoint = Vector2.new(0.5, 0.5)
+OptionsGui.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+OptionsGui.Position = UDim2.new(0.5, 0, 0.5, 0)
+OptionsGui.Size = UDim2.new(1, 0, 1, 0)
+OptionsGui.Visible = false
+
+UICorner_4.CornerRadius = UDim.new(0.0500000007, 1)
+UICorner_4.Parent = OptionsGui
+
+MinigameSkip.Name = "MinigameSkip"
+MinigameSkip.Parent = OptionsGui
+MinigameSkip.AnchorPoint = Vector2.new(0.5, 0)
+MinigameSkip.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+MinigameSkip.Size = UDim2.new(0.5, 0, 0.180000007, 0)
+MinigameSkip.Font = Enum.Font.SourceSans
+MinigameSkip.Text = ""
+MinigameSkip.TextColor3 = Color3.fromRGB(0, 0, 0)
+MinigameSkip.TextSize = 14.000
+
+UICorner_5.Parent = MinigameSkip
+
+TextLabel_2.Parent = MinigameSkip
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_2.ZIndex = 0
+TextLabel_2.Font = Enum.Font.GothamBlack
+TextLabel_2.Text = "Minigame Skip"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 14.000
+
+NoUniform.Name = "NoUniform"
+NoUniform.Parent = OptionsGui
+NoUniform.AnchorPoint = Vector2.new(0.5, 0)
+NoUniform.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+NoUniform.Size = UDim2.new(0.5, 0, 0.180000007, 0)
+NoUniform.Font = Enum.Font.SourceSans
+NoUniform.Text = ""
+NoUniform.TextColor3 = Color3.fromRGB(0, 0, 0)
+NoUniform.TextSize = 14.000
+
+UICorner_6.Parent = NoUniform
+
+TextLabel_3.Parent = NoUniform
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_3.ZIndex = 0
+TextLabel_3.Font = Enum.Font.GothamBlack
+TextLabel_3.Text = "Unequip Uniform"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+InventoryEmpty.Name = "InventoryEmpty"
+InventoryEmpty.Parent = OptionsGui
+InventoryEmpty.AnchorPoint = Vector2.new(0.5, 0)
+InventoryEmpty.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+InventoryEmpty.Size = UDim2.new(0.5, 0, 0.180000007, 0)
+InventoryEmpty.Font = Enum.Font.SourceSans
+InventoryEmpty.Text = ""
+InventoryEmpty.TextColor3 = Color3.fromRGB(0, 0, 0)
+InventoryEmpty.TextSize = 14.000
+
+UICorner_7.Parent = InventoryEmpty
+
+TextLabel_4.Parent = InventoryEmpty
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_4.ZIndex = 0
+TextLabel_4.Font = Enum.Font.GothamBlack
+TextLabel_4.Text = "Empty Inventory"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 14.000
+
+UIListLayout.Parent = OptionsGui
+UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.VerticalAlignment = Enum.VerticalAlignment.Center
+UIListLayout.Padding = UDim.new(0.0199999996, 0)
+
+DraggableUi.Name = "DraggableUi"
+DraggableUi.Parent = OptionsGui
+DraggableUi.AnchorPoint = Vector2.new(0.5, 0)
+DraggableUi.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+DraggableUi.Size = UDim2.new(0.5, 0, 0.180000007, 0)
+DraggableUi.Font = Enum.Font.SourceSans
+DraggableUi.Text = ""
+DraggableUi.TextColor3 = Color3.fromRGB(0, 0, 0)
+DraggableUi.TextSize = 14.000
+
+UICorner_8.Parent = DraggableUi
+
+TextLabel_5.Parent = DraggableUi
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_5.ZIndex = 0
+TextLabel_5.Font = Enum.Font.GothamBlack
+TextLabel_5.Text = "UiDrag"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 14.000
+
+RemoveAd.Name = "RemoveAd"
+RemoveAd.Parent = OptionsGui
+RemoveAd.AnchorPoint = Vector2.new(0.5, 0)
+RemoveAd.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+RemoveAd.Size = UDim2.new(0.5, 0, 0.180000007, 0)
+RemoveAd.Font = Enum.Font.SourceSans
+RemoveAd.Text = ""
+RemoveAd.TextColor3 = Color3.fromRGB(0, 0, 0)
+RemoveAd.TextSize = 14.000
+
+UICorner_9.Parent = RemoveAd
+
+TextLabel_6.Parent = RemoveAd
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_6.ZIndex = 0
+TextLabel_6.Font = Enum.Font.GothamBlack
+TextLabel_6.Text = "Remove Ads"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 14.000
+
+TakeOutGui.Name = "TakeOutGui"
+TakeOutGui.Parent = Items
+TakeOutGui.AnchorPoint = Vector2.new(0.5, 0.5)
+TakeOutGui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TakeOutGui.Position = UDim2.new(0.5, 0, 0.5, 0)
+TakeOutGui.Size = UDim2.new(1, 0, 1, 0)
+TakeOutGui.Visible = false
+
+UICorner_10.CornerRadius = UDim.new(0.0500000007, 1)
+UICorner_10.Parent = TakeOutGui
+
+DiningInGui.Name = "DiningInGui"
+DiningInGui.Parent = Items
+DiningInGui.AnchorPoint = Vector2.new(0.5, 0.5)
+DiningInGui.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+DiningInGui.Position = UDim2.new(0.5, 0, 0.5, 0)
+DiningInGui.Size = UDim2.new(1, 0, 1, 0)
+
+UICorner_11.CornerRadius = UDim.new(0.0500000007, 1)
+UICorner_11.Parent = DiningInGui
+
+LeftScrollingFrame.Name = "LeftScrollingFrame"
+LeftScrollingFrame.Parent = DiningInGui
+LeftScrollingFrame.Active = true
+LeftScrollingFrame.AnchorPoint = Vector2.new(0.5, 0.5)
+LeftScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LeftScrollingFrame.BackgroundTransparency = 1.000
+LeftScrollingFrame.Position = UDim2.new(0.256922424, 0, 0.50000006, 0)
+LeftScrollingFrame.Size = UDim2.new(0.513844788, 0, 1, 0)
+LeftScrollingFrame.CanvasSize = UDim2.new(0, 0, 1.79999995, 0)
+LeftScrollingFrame.HorizontalScrollBarInset = Enum.ScrollBarInset.ScrollBar
+LeftScrollingFrame.ScrollBarThickness = 0
+
+UICorner_12.CornerRadius = UDim.new(0.0500000007, 1)
+UICorner_12.Parent = LeftScrollingFrame
+
+UIListLayout_2.Parent = LeftScrollingFrame
+UIListLayout_2.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_2.VerticalAlignment = Enum.VerticalAlignment.Center
+UIListLayout_2.Padding = UDim.new(0.0199999996, 0)
+
+Greeting.Name = "Greeting"
+Greeting.Parent = LeftScrollingFrame
+Greeting.AnchorPoint = Vector2.new(0.5, 0)
+Greeting.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Greeting.Size = UDim2.new(0.800000012, 0, 0.150000006, 0)
+Greeting.Font = Enum.Font.SourceSans
+Greeting.Text = ""
+Greeting.TextColor3 = Color3.fromRGB(0, 0, 0)
+Greeting.TextSize = 14.000
+
+UICorner_13.Parent = Greeting
+
+TextLabel_7.Parent = Greeting
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_7.ZIndex = 0
+TextLabel_7.Font = Enum.Font.GothamBlack
+TextLabel_7.Text = "Greeting"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextSize = 14.000
+
+Floor.Name = "Floor"
+Floor.Parent = LeftScrollingFrame
+Floor.AnchorPoint = Vector2.new(0.5, 0)
+Floor.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Floor.Size = UDim2.new(0.800000012, 0, 0.150000006, 0)
+Floor.Font = Enum.Font.SourceSans
+Floor.Text = ""
+Floor.TextColor3 = Color3.fromRGB(0, 0, 0)
+Floor.TextSize = 14.000
+
+UICorner_14.Parent = Floor
+
+TextLabel_8.Parent = Floor
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_8.ZIndex = 0
+TextLabel_8.Font = Enum.Font.GothamBlack
+TextLabel_8.Text = "Location"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextSize = 14.000
+
+TableType.Name = "TableType"
+TableType.Parent = LeftScrollingFrame
+TableType.AnchorPoint = Vector2.new(0.5, 0)
+TableType.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+TableType.Size = UDim2.new(0.800000012, 0, 0.150000006, 0)
+TableType.Font = Enum.Font.SourceSans
+TableType.Text = ""
+TableType.TextColor3 = Color3.fromRGB(0, 0, 0)
+TableType.TextSize = 14.000
+
+UICorner_15.Parent = TableType
+
+TextLabel_9.Parent = TableType
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_9.ZIndex = 0
+TextLabel_9.Font = Enum.Font.GothamBlack
+TextLabel_9.Text = "Table Type"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextSize = 14.000
+
+Alright.Name = "Alright"
+Alright.Parent = LeftScrollingFrame
+Alright.AnchorPoint = Vector2.new(0.5, 0)
+Alright.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Alright.Size = UDim2.new(0.800000012, 0, 0.150000006, 0)
+Alright.Font = Enum.Font.SourceSans
+Alright.Text = ""
+Alright.TextColor3 = Color3.fromRGB(0, 0, 0)
+Alright.TextSize = 14.000
+
+UICorner_16.Parent = Alright
+
+TextLabel_10.Parent = Alright
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_10.ZIndex = 0
+TextLabel_10.Font = Enum.Font.GothamBlack
+TextLabel_10.Text = "Alrighty!"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextSize = 14.000
+
+FollowMe.Name = "FollowMe"
+FollowMe.Parent = LeftScrollingFrame
+FollowMe.AnchorPoint = Vector2.new(0.5, 0)
+FollowMe.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+FollowMe.Size = UDim2.new(0.800000012, 0, 0.150000006, 0)
+FollowMe.Font = Enum.Font.SourceSans
+FollowMe.Text = ""
+FollowMe.TextColor3 = Color3.fromRGB(0, 0, 0)
+FollowMe.TextSize = 14.000
+
+UICorner_17.Parent = FollowMe
+
+TextLabel_11.Parent = FollowMe
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_11.ZIndex = 0
+TextLabel_11.Font = Enum.Font.GothamBlack
+TextLabel_11.Text = "Follow Me!"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextSize = 14.000
+
+Farewell.Name = "Farewell"
+Farewell.Parent = LeftScrollingFrame
+Farewell.AnchorPoint = Vector2.new(0.5, 0)
+Farewell.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Farewell.Size = UDim2.new(0.800000012, 0, 0.150000006, 0)
+Farewell.Font = Enum.Font.SourceSans
+Farewell.Text = ""
+Farewell.TextColor3 = Color3.fromRGB(0, 0, 0)
+Farewell.TextSize = 14.000
+
+UICorner_18.Parent = Farewell
+
+TextLabel_12.Parent = Farewell
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_12.ZIndex = 0
+TextLabel_12.Font = Enum.Font.GothamBlack
+TextLabel_12.Text = "Farewell!"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextSize = 14.000
+
+RightScrollingFrame.Name = "RightScrollingFrame"
+RightScrollingFrame.Parent = DiningInGui
+RightScrollingFrame.Active = true
+RightScrollingFrame.AnchorPoint = Vector2.new(0.5, 0.5)
+RightScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RightScrollingFrame.BackgroundTransparency = 1.000
+RightScrollingFrame.Position = UDim2.new(0.756922424, 0, 0.50000006, 0)
+RightScrollingFrame.Size = UDim2.new(0.486155212, 0, 1, 0)
+RightScrollingFrame.CanvasSize = UDim2.new(0, 0, 2.79999995, 0)
+RightScrollingFrame.HorizontalScrollBarInset = Enum.ScrollBarInset.ScrollBar
+RightScrollingFrame.ScrollBarThickness = 0
+
+UICorner_19.CornerRadius = UDim.new(0.0500000007, 1)
+UICorner_19.Parent = RightScrollingFrame
+
+Drinks.Name = "Drinks"
+Drinks.Parent = RightScrollingFrame
+Drinks.AnchorPoint = Vector2.new(0.5, 0)
+Drinks.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Drinks.Size = UDim2.new(0.800000012, 0, 0.150000006, 0)
+Drinks.Font = Enum.Font.SourceSans
+Drinks.Text = ""
+Drinks.TextColor3 = Color3.fromRGB(0, 0, 0)
+Drinks.TextSize = 14.000
+Drinks.TextWrapped = true
+
+UICorner_20.Parent = Drinks
+
+TextLabel_13.Parent = Drinks
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_13.ZIndex = 0
+TextLabel_13.Font = Enum.Font.GothamBlack
+TextLabel_13.Text = "Drinks"
+TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.TextSize = 14.000
+
+UIAspectRatioConstraint_3.Parent = Drinks
+UIAspectRatioConstraint_3.AspectRatio = 2.500
+UIAspectRatioConstraint_3.AspectType = Enum.AspectType.ScaleWithParentSize
+
+Appetizers.Name = "Appetizers"
+Appetizers.Parent = RightScrollingFrame
+Appetizers.AnchorPoint = Vector2.new(0.5, 0)
+Appetizers.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Appetizers.LayoutOrder = 1
+Appetizers.Size = UDim2.new(0.800000012, 0, 0.150000006, 0)
+Appetizers.Font = Enum.Font.SourceSans
+Appetizers.Text = ""
+Appetizers.TextColor3 = Color3.fromRGB(0, 0, 0)
+Appetizers.TextSize = 14.000
+Appetizers.TextWrapped = true
+
+UICorner_21.Parent = Appetizers
+
+TextLabel_14.Parent = Appetizers
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_14.ZIndex = 0
+TextLabel_14.Font = Enum.Font.GothamBlack
+TextLabel_14.Text = "Appetizers"
+TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.TextSize = 14.000
+
+UIAspectRatioConstraint_4.Parent = Appetizers
+UIAspectRatioConstraint_4.AspectRatio = 2.500
+UIAspectRatioConstraint_4.AspectType = Enum.AspectType.ScaleWithParentSize
+
+Entree.Name = "Entree"
+Entree.Parent = RightScrollingFrame
+Entree.AnchorPoint = Vector2.new(0.5, 0)
+Entree.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Entree.LayoutOrder = 2
+Entree.Size = UDim2.new(0.800000012, 0, 0.150000006, 0)
+Entree.Font = Enum.Font.SourceSans
+Entree.Text = ""
+Entree.TextColor3 = Color3.fromRGB(0, 0, 0)
+Entree.TextSize = 14.000
+Entree.TextWrapped = true
+
+UICorner_22.Parent = Entree
+
+TextLabel_15.Parent = Entree
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.BackgroundTransparency = 1.000
+TextLabel_15.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_15.ZIndex = 0
+TextLabel_15.Font = Enum.Font.GothamBlack
+TextLabel_15.Text = "Entree"
+TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.TextSize = 14.000
+
+UIAspectRatioConstraint_5.Parent = Entree
+UIAspectRatioConstraint_5.AspectRatio = 2.500
+UIAspectRatioConstraint_5.AspectType = Enum.AspectType.ScaleWithParentSize
+
+Dessert.Name = "Dessert"
+Dessert.Parent = RightScrollingFrame
+Dessert.AnchorPoint = Vector2.new(0.5, 0)
+Dessert.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Dessert.LayoutOrder = 3
+Dessert.Size = UDim2.new(0.800000012, 0, 0.150000006, 0)
+Dessert.Font = Enum.Font.SourceSans
+Dessert.Text = ""
+Dessert.TextColor3 = Color3.fromRGB(0, 0, 0)
+Dessert.TextSize = 14.000
+Dessert.TextWrapped = true
+
+UICorner_23.Parent = Dessert
+
+TextLabel_16.Parent = Dessert
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.BackgroundTransparency = 1.000
+TextLabel_16.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_16.ZIndex = 0
+TextLabel_16.Font = Enum.Font.GothamBlack
+TextLabel_16.Text = "Desserts"
+TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.TextSize = 14.000
+
+UIAspectRatioConstraint_6.Parent = Dessert
+UIAspectRatioConstraint_6.AspectRatio = 2.500
+UIAspectRatioConstraint_6.AspectType = Enum.AspectType.ScaleWithParentSize
+
+ComingRightUp.Name = "ComingRightUp"
+ComingRightUp.Parent = RightScrollingFrame
+ComingRightUp.AnchorPoint = Vector2.new(0.5, 0)
+ComingRightUp.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+ComingRightUp.LayoutOrder = 4
+ComingRightUp.Size = UDim2.new(0.800000012, 0, 0.150000006, 0)
+ComingRightUp.Font = Enum.Font.SourceSans
+ComingRightUp.Text = ""
+ComingRightUp.TextColor3 = Color3.fromRGB(0, 0, 0)
+ComingRightUp.TextSize = 14.000
+ComingRightUp.TextWrapped = true
+
+UICorner_24.Parent = ComingRightUp
+
+TextLabel_17.Parent = ComingRightUp
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.BackgroundTransparency = 1.000
+TextLabel_17.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_17.ZIndex = 0
+TextLabel_17.Font = Enum.Font.GothamBlack
+TextLabel_17.Text = "Coming right up!"
+TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.TextSize = 14.000
+TextLabel_17.TextWrapped = true
+
+UIAspectRatioConstraint_7.Parent = ComingRightUp
+UIAspectRatioConstraint_7.AspectRatio = 2.500
+UIAspectRatioConstraint_7.AspectType = Enum.AspectType.ScaleWithParentSize
+
+ExcellentChoice.Name = "ExcellentChoice"
+ExcellentChoice.Parent = RightScrollingFrame
+ExcellentChoice.AnchorPoint = Vector2.new(0.5, 0)
+ExcellentChoice.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+ExcellentChoice.LayoutOrder = 5
+ExcellentChoice.Size = UDim2.new(0.800000012, 0, 0.150000006, 0)
+ExcellentChoice.Font = Enum.Font.SourceSans
+ExcellentChoice.Text = ""
+ExcellentChoice.TextColor3 = Color3.fromRGB(0, 0, 0)
+ExcellentChoice.TextSize = 14.000
+ExcellentChoice.TextWrapped = true
+
+UICorner_25.Parent = ExcellentChoice
+
+TextLabel_18.Parent = ExcellentChoice
+TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.BackgroundTransparency = 1.000
+TextLabel_18.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_18.ZIndex = 0
+TextLabel_18.Font = Enum.Font.GothamBlack
+TextLabel_18.Text = "Excellent choice!"
+TextLabel_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.TextSize = 14.000
+TextLabel_18.TextWrapped = true
+
+UIAspectRatioConstraint_8.Parent = ExcellentChoice
+UIAspectRatioConstraint_8.AspectRatio = 2.500
+UIAspectRatioConstraint_8.AspectType = Enum.AspectType.ScaleWithParentSize
+
+MoveOn.Name = "MoveOn"
+MoveOn.Parent = RightScrollingFrame
+MoveOn.AnchorPoint = Vector2.new(0.5, 0)
+MoveOn.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+MoveOn.LayoutOrder = 6
+MoveOn.Size = UDim2.new(0.800000012, 0, 0.150000006, 0)
+MoveOn.Font = Enum.Font.SourceSans
+MoveOn.Text = ""
+MoveOn.TextColor3 = Color3.fromRGB(0, 0, 0)
+MoveOn.TextSize = 14.000
+MoveOn.TextWrapped = true
+
+UICorner_26.Parent = MoveOn
+
+TextLabel_19.Parent = MoveOn
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.BackgroundTransparency = 1.000
+TextLabel_19.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_19.ZIndex = 0
+TextLabel_19.Font = Enum.Font.GothamBlack
+TextLabel_19.Text = "Ready to move on?"
+TextLabel_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.TextSize = 14.000
+TextLabel_19.TextWrapped = true
+
+UIAspectRatioConstraint_9.Parent = MoveOn
+UIAspectRatioConstraint_9.AspectRatio = 2.500
+UIAspectRatioConstraint_9.AspectType = Enum.AspectType.ScaleWithParentSize
+
+OneMoment.Name = "OneMoment"
+OneMoment.Parent = RightScrollingFrame
+OneMoment.AnchorPoint = Vector2.new(0.5, 0)
+OneMoment.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+OneMoment.LayoutOrder = 7
+OneMoment.Size = UDim2.new(0.800000012, 0, 0.150000006, 0)
+OneMoment.Font = Enum.Font.SourceSans
+OneMoment.Text = ""
+OneMoment.TextColor3 = Color3.fromRGB(0, 0, 0)
+OneMoment.TextSize = 14.000
+OneMoment.TextWrapped = true
+
+UICorner_27.Parent = OneMoment
+
+TextLabel_20.Parent = OneMoment
+TextLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.BackgroundTransparency = 1.000
+TextLabel_20.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_20.ZIndex = 0
+TextLabel_20.Font = Enum.Font.GothamBlack
+TextLabel_20.Text = "One moment!"
+TextLabel_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.TextSize = 14.000
+TextLabel_20.TextWrapped = true
+
+UIAspectRatioConstraint_10.Parent = OneMoment
+UIAspectRatioConstraint_10.AspectRatio = 2.500
+UIAspectRatioConstraint_10.AspectType = Enum.AspectType.ScaleWithParentSize
+
+Okay.Name = "Okay"
+Okay.Parent = RightScrollingFrame
+Okay.AnchorPoint = Vector2.new(0.5, 0)
+Okay.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Okay.LayoutOrder = 8
+Okay.Size = UDim2.new(0.800000012, 0, 0.150000006, 0)
+Okay.Font = Enum.Font.SourceSans
+Okay.Text = ""
+Okay.TextColor3 = Color3.fromRGB(0, 0, 0)
+Okay.TextSize = 14.000
+Okay.TextWrapped = true
+
+UICorner_28.Parent = Okay
+
+TextLabel_21.Parent = Okay
+TextLabel_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.BackgroundTransparency = 1.000
+TextLabel_21.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_21.ZIndex = 0
+TextLabel_21.Font = Enum.Font.GothamBlack
+TextLabel_21.Text = "Okay!"
+TextLabel_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.TextSize = 14.000
+
+UIAspectRatioConstraint_11.Parent = Okay
+UIAspectRatioConstraint_11.AspectRatio = 2.500
+UIAspectRatioConstraint_11.AspectType = Enum.AspectType.ScaleWithParentSize
+
+SureThing.Name = "SureThing"
+SureThing.Parent = RightScrollingFrame
+SureThing.AnchorPoint = Vector2.new(0.5, 0)
+SureThing.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+SureThing.LayoutOrder = 9
+SureThing.Size = UDim2.new(0.800000012, 0, 0.150000006, 0)
+SureThing.Font = Enum.Font.SourceSans
+SureThing.Text = ""
+SureThing.TextColor3 = Color3.fromRGB(0, 0, 0)
+SureThing.TextSize = 14.000
+SureThing.TextWrapped = true
+
+UICorner_29.Parent = SureThing
+
+TextLabel_22.Parent = SureThing
+TextLabel_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.BackgroundTransparency = 1.000
+TextLabel_22.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_22.ZIndex = 0
+TextLabel_22.Font = Enum.Font.GothamBlack
+TextLabel_22.Text = "Sure thing!"
+TextLabel_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.TextSize = 14.000
+
+UIAspectRatioConstraint_12.Parent = SureThing
+UIAspectRatioConstraint_12.AspectRatio = 2.500
+UIAspectRatioConstraint_12.AspectType = Enum.AspectType.ScaleWithParentSize
+
+UIListLayout_3.Parent = RightScrollingFrame
+UIListLayout_3.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_3.Padding = UDim.new(0.00999999978, 0)
+
+YoureWelcome.Name = "YoureWelcome"
+YoureWelcome.Parent = RightScrollingFrame
+YoureWelcome.AnchorPoint = Vector2.new(0.5, 0)
+YoureWelcome.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+YoureWelcome.LayoutOrder = 9
+YoureWelcome.Size = UDim2.new(0.800000012, 0, 0.150000006, 0)
+YoureWelcome.Font = Enum.Font.SourceSans
+YoureWelcome.Text = ""
+YoureWelcome.TextColor3 = Color3.fromRGB(0, 0, 0)
+YoureWelcome.TextSize = 14.000
+YoureWelcome.TextWrapped = true
+
+UICorner_30.Parent = YoureWelcome
+
+TextLabel_23.Parent = YoureWelcome
+TextLabel_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.BackgroundTransparency = 1.000
+TextLabel_23.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_23.ZIndex = 0
+TextLabel_23.Font = Enum.Font.GothamBlack
+TextLabel_23.Text = "You're welcome!"
+TextLabel_23.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.TextSize = 14.000
+TextLabel_23.TextWrapped = true
+
+UIAspectRatioConstraint_13.Parent = YoureWelcome
+UIAspectRatioConstraint_13.AspectRatio = 2.500
+UIAspectRatioConstraint_13.AspectType = Enum.AspectType.ScaleWithParentSize
+
+SorryForTheWait.Name = "SorryForTheWait"
+SorryForTheWait.Parent = RightScrollingFrame
+SorryForTheWait.AnchorPoint = Vector2.new(0.5, 0)
+SorryForTheWait.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+SorryForTheWait.LayoutOrder = 9
+SorryForTheWait.Size = UDim2.new(0.800000012, 0, 0.150000006, 0)
+SorryForTheWait.Font = Enum.Font.SourceSans
+SorryForTheWait.Text = ""
+SorryForTheWait.TextColor3 = Color3.fromRGB(0, 0, 0)
+SorryForTheWait.TextSize = 14.000
+SorryForTheWait.TextWrapped = true
+
+UICorner_31.Parent = SorryForTheWait
+
+TextLabel_24.Parent = SorryForTheWait
+TextLabel_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.BackgroundTransparency = 1.000
+TextLabel_24.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_24.ZIndex = 0
+TextLabel_24.Font = Enum.Font.GothamBlack
+TextLabel_24.Text = "Sorry for the wait."
+TextLabel_24.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.TextSize = 14.000
+TextLabel_24.TextWrapped = true
+
+UIAspectRatioConstraint_14.Parent = SorryForTheWait
+UIAspectRatioConstraint_14.AspectRatio = 2.500
+UIAspectRatioConstraint_14.AspectType = Enum.AspectType.ScaleWithParentSize
+
+Tabs.Name = "Tabs"
+Tabs.Parent = Main
+Tabs.AnchorPoint = Vector2.new(0.5, 0)
+Tabs.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tabs.BackgroundTransparency = 1.000
+Tabs.Position = UDim2.new(0.131537095, 0, 0.0800000355, 0)
+Tabs.Size = UDim2.new(0.263074249, 0, 0.906054497, 0)
+
+UIListLayout_4.Parent = Tabs
+UIListLayout_4.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_4.VerticalAlignment = Enum.VerticalAlignment.Center
+UIListLayout_4.Padding = UDim.new(0.0199999996, 0)
+
+UICorner_32.Parent = Tabs
+
+DiningIn.Name = "DiningIn"
+DiningIn.Parent = Tabs
+DiningIn.AnchorPoint = Vector2.new(0.5, 0)
+DiningIn.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+DiningIn.Size = UDim2.new(1, 0, 0.25999999, 0)
+DiningIn.Font = Enum.Font.SourceSans
+DiningIn.Text = ""
+DiningIn.TextColor3 = Color3.fromRGB(0, 0, 0)
+DiningIn.TextSize = 14.000
+DiningIn.TextWrapped = true
+
+UICorner_33.Parent = DiningIn
+
+TextLabel_25.Parent = DiningIn
+TextLabel_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_25.BackgroundTransparency = 1.000
+TextLabel_25.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_25.ZIndex = 0
+TextLabel_25.Font = Enum.Font.GothamBlack
+TextLabel_25.Text = "Dining in"
+TextLabel_25.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_25.TextSize = 14.000
+TextLabel_25.TextWrapped = true
+
+TakeOut.Name = "TakeOut"
+TakeOut.Parent = Tabs
+TakeOut.AnchorPoint = Vector2.new(0.5, 0)
+TakeOut.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+TakeOut.Size = UDim2.new(1, 0, 0.25999999, 0)
+TakeOut.Font = Enum.Font.SourceSans
+TakeOut.Text = ""
+TakeOut.TextColor3 = Color3.fromRGB(0, 0, 0)
+TakeOut.TextSize = 14.000
+
+UICorner_34.Parent = TakeOut
+
+TextLabel_26.Parent = TakeOut
+TextLabel_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_26.BackgroundTransparency = 1.000
+TextLabel_26.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_26.ZIndex = 0
+TextLabel_26.Font = Enum.Font.GothamBlack
+TextLabel_26.Text = "Takeout"
+TextLabel_26.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_26.TextSize = 14.000
+
+Notepad.Name = "Notepad"
+Notepad.Parent = Tabs
+Notepad.AnchorPoint = Vector2.new(0.5, 0)
+Notepad.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+Notepad.Size = UDim2.new(1, 0, 0.129999995, 0)
+Notepad.Font = Enum.Font.SourceSans
+Notepad.Text = ""
+Notepad.TextColor3 = Color3.fromRGB(0, 0, 0)
+Notepad.TextSize = 14.000
+
+UICorner_35.Parent = Notepad
+
+TextLabel_27.Parent = Notepad
+TextLabel_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_27.BackgroundTransparency = 1.000
+TextLabel_27.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_27.ZIndex = 0
+TextLabel_27.Font = Enum.Font.GothamBlack
+TextLabel_27.Text = "Notepad"
+TextLabel_27.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_27.TextSize = 14.000
+
+Options.Name = "Options"
+Options.Parent = Tabs
+Options.AnchorPoint = Vector2.new(0.5, 0)
+Options.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+Options.Size = UDim2.new(1, 0, 0.129999995, 0)
+Options.Font = Enum.Font.SourceSans
+Options.Text = ""
+Options.TextColor3 = Color3.fromRGB(0, 0, 0)
+Options.TextSize = 14.000
+
+UICorner_36.Parent = Options
+
+TextLabel_28.Parent = Options
+TextLabel_28.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_28.BackgroundTransparency = 1.000
+TextLabel_28.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_28.ZIndex = 0
+TextLabel_28.Font = Enum.Font.GothamBlack
+TextLabel_28.Text = "Options"
+TextLabel_28.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_28.TextSize = 14.000
+
+-- Scripts:
+
+local function OTYMOS_fake_script() -- Close.Script 
+    local script = Instance.new('Script', Close)
+
+    Codes = game.Players.colinsfur.PlayerGui.UserInterface.SidebarFrames.Codes
+    
+    function lclick()
+        Codes.Visible = false
+    end
+    
+    script.Parent.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(OTYMOS_fake_script)()
+local function JAHL_fake_script() -- MinigameSkip.Script 
+    local script = Instance.new('Script', MinigameSkip)
+
+    MinigameSkipButton = script.Parent
+    
+    function lclick()
+        game:GetService("ReplicatedStorage").Packages.Knit.Services.CookingService.RE.MinigameFinished:FireServer()
+    end
+    
+    MinigameSkipButton.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(JAHL_fake_script)()
+local function QQAMAAF_fake_script() -- NoUniform.Script 
+    local script = Instance.new('Script', NoUniform)
+
+    NoUniformButton = script.Parent
+    
+    function lclick()
+        game:GetService("ReplicatedStorage").Packages.Knit.Services.UniformService.RE.UnequipUniform:FireServer()
+    end
+    
+    NoUniformButton.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(QQAMAAF_fake_script)()
+local function OTOD_fake_script() -- InventoryEmpty.Script 
+    local script = Instance.new('Script', InventoryEmpty)
+
+    EmptyInventoryButton = script.Parent
+    
+    function lclick()
+        local args = {
+            [1] = 1,
+            [2] = workspace.Assets.Cooking.Trashcans.TrashCan.Interact,
+            [3] = "Trash Food"
+        }
+    
+        game:GetService("ReplicatedStorage").Packages.Knit.Services.InteractionService.RF.Clicked:InvokeServer(unpack(args))
+    end
+    
+    EmptyInventoryButton.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(OTOD_fake_script)()
+local function STSSI_fake_script() -- DraggableUi.Script 
+    local script = Instance.new('Script', DraggableUi)
+
+    DraggableUi = script.Parent
+    
+    function lclick()
+        game.Players.colinsfur.PlayerGui.UserInterface.SidebarFrames.Codes.Draggable = true
+    end
+    
+    DraggableUi.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(STSSI_fake_script)()
+local function LYOEGZ_fake_script() -- RemoveAd.Script 
+    local script = Instance.new('Script', RemoveAd)
+
+    function lclick()
+    
+        game.Workspace.Boards:Destroy()
+    
+    end
+    
+    script.Parent.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(LYOEGZ_fake_script)()
+local function IHVFY_fake_script() -- Greeting.Script 
+    local script = Instance.new('Script', Greeting)
+
+    function lclick()
+        local args = {
+            [1] = "Hello, and welcome to Kohaú! My name is Colin, and I will be serving you today. How many people will be accommodating you today?",
+            [2] = "All"
+        }
+    
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+    end
+    
+    script.Parent.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(IHVFY_fake_script)()
+local function ELVS_fake_script() -- Floor.Script 
+    local script = Instance.new('Script', Floor)
+
+    function lclick()
+        local args = {
+            [1] = "Upstairs or downstairs?",
+            [2] = "All"
+        }
+    
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+    end
+    
+    script.Parent.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(ELVS_fake_script)()
+local function XBVMIH_fake_script() -- TableType.Script 
+    local script = Instance.new('Script', TableType)
+
+    function lclick()
+        local args = {
+            [1] = "Would you like to sit at a hibachi table, booth, table, or special dining area? (must have gamepass)",
+            [2] = "All"
+        }
+    
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+    end
+    
+    script.Parent.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(XBVMIH_fake_script)()
+local function CMSCWXO_fake_script() -- Alright.Script 
+    local script = Instance.new('Script', Alright)
+
+    function lclick()
+        local args = {
+            [1] = "Alrighty!",
+            [2] = "All"
+        }
+    
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+    end
+    
+    script.Parent.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(CMSCWXO_fake_script)()
+local function XYDXZ_fake_script() -- FollowMe.Script 
+    local script = Instance.new('Script', FollowMe)
+
+    function lclick()
+        local args = {
+            [1] = "Please, follow me!",
+            [2] = "All"
+        }
+    
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+    end
+    
+    script.Parent.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(XYDXZ_fake_script)()
+local function TIZEO_fake_script() -- Farewell.Script 
+    local script = Instance.new('Script', Farewell)
+
+    function lclick()
+        local args = {
+            [1] = "Thank you for visting Kohaú! It was a pleasure serving you today. (you can leave a tip if you'd like!)",
+            [2] = "All"
+        }
+    
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+    end
+    
+    script.Parent.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(TIZEO_fake_script)()
+local function XHKC_fake_script() -- Drinks.Script 
+    local script = Instance.new('Script', Drinks)
+
+    function lclick()
+        local args = {
+            [1] = "Can I start you off with any drinks?",
+            [2] = "All"
+        }
+    
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+    end
+    
+    script.Parent.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(XHKC_fake_script)()
+local function FPDD_fake_script() -- Appetizers.Script 
+    local script = Instance.new('Script', Appetizers)
+
+    function lclick()
+        local args = {
+            [1] = "Can I accomodate you with any appetizers?",
+            [2] = "All"
+        }
+    
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+    end
+    
+    script.Parent.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(FPDD_fake_script)()
+local function IKSZ_fake_script() -- Entree.Script 
+    local script = Instance.new('Script', Entree)
+
+    function lclick()
+        local args = {
+            [1] = "And now time for the best part of dining at Kohaú! Are you ready to order your entree meal?",
+            [2] = "All"
+        }
+    
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+    end
+    
+    script.Parent.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(IKSZ_fake_script)()
+local function ORVC_fake_script() -- Dessert.Script 
+    local script = Instance.new('Script', Dessert)
+
+    function lclick()
+        local args = {
+            [1] = "To finish off this meal, Would you like any desserts?",
+            [2] = "All"
+        }
+    
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+    end
+    
+    script.Parent.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(ORVC_fake_script)()
+local function TJFN_fake_script() -- ComingRightUp.Script 
+    local script = Instance.new('Script', ComingRightUp)
+
+    function lclick()
+        local args = {
+            [1] = "Coming right up!",
+            [2] = "All"
+        }
+    
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+    end
+    
+    script.Parent.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(TJFN_fake_script)()
+local function HECVMGI_fake_script() -- ExcellentChoice.Script 
+    local script = Instance.new('Script', ExcellentChoice)
+
+    function lclick()
+        local args = {
+            [1] = "Excellent choice!",
+            [2] = "All"
+        }
+    
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+    end
+    
+    script.Parent.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(HECVMGI_fake_script)()
+local function FAOUY_fake_script() -- MoveOn.Script 
+    local script = Instance.new('Script', MoveOn)
+
+    function lclick()
+        local args = {
+            [1] = "Are you ready to move on?",
+            [2] = "All"
+        }
+    
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+    end
+    
+    script.Parent.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(FAOUY_fake_script)()
+local function XNPQUO_fake_script() -- OneMoment.Script 
+    local script = Instance.new('Script', OneMoment)
+
+    function lclick()
+        local args = {
+            [1] = "One moment, please!",
+            [2] = "All"
+        }
+    
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+    end
+    
+    script.Parent.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(XNPQUO_fake_script)()
+local function YNMNB_fake_script() -- Okay.Script 
+    local script = Instance.new('Script', Okay)
+
+    function lclick()
+        local args = {
+            [1] = "Okay!",
+            [2] = "All"
+        }
+    
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+    end
+    
+    script.Parent.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(YNMNB_fake_script)()
+local function GIYPEW_fake_script() -- SureThing.Script 
+    local script = Instance.new('Script', SureThing)
+
+    function lclick()
+        local args = {
+            [1] = "Sure thing!",
+            [2] = "All"
+        }
+    
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+    end
+    
+    script.Parent.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(GIYPEW_fake_script)()
+local function OFYMDWG_fake_script() -- YoureWelcome.Script 
+    local script = Instance.new('Script', YoureWelcome)
+
+    function lclick()
+        local args = {
+            [1] = "You're welcome!",
+            [2] = "All"
+        }
+    
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+    end
+    
+    script.Parent.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(OFYMDWG_fake_script)()
+local function PBXKY_fake_script() -- SorryForTheWait.Script 
+    local script = Instance.new('Script', SorryForTheWait)
+
+    function lclick()
+        local args = {
+            [1] = "Sorry for the wait.",
+            [2] = "All"
+        }
+    
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+    end
+    
+    script.Parent.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(PBXKY_fake_script)()
+local function FYVZWB_fake_script() -- DiningIn.Script 
+    local script = Instance.new('Script', DiningIn)
+
+    DiningInButton = game.Players.colinsfur.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Tabs.DiningIn
+    
+    NotepadGui = game.Players.colinsfur.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.NotepadGui
+    TakeOutGui = game.Players.colinsfur.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.TakeOutGui
+    DiningInGui = game.Players.colinsfur.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.DiningInGui
+    OptionsGui = game.Players.colinsfur.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.OptionsGui
+    
+    function lclick()
+    
+        TakeOutGui.Visible = false
+        OptionsGui.Visible = false
+        NotepadGui.Visible = false
+        DiningInGui.Visible = true
+    
+    end
+    
+    DiningInButton.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(FYVZWB_fake_script)()
+local function XJKOZZ_fake_script() -- TakeOut.Script 
+    local script = Instance.new('Script', TakeOut)
+
+    TakeOutButton = game.Players.colinsfur.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Tabs.TakeOut
+    
+    NotepadGui = game.Players.colinsfur.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.NotepadGui
+    TakeOutGui = game.Players.colinsfur.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.TakeOutGui
+    DiningInGui = game.Players.colinsfur.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.DiningInGui
+    OptionsGui = game.Players.colinsfur.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.OptionsGui
+    
+    function lclick()
+    
+        NotepadGui.Visible = false
+        DiningInGui.Visible = false
+        OptionsGui.Visible = false
+        wait(.1)
+        TakeOutGui.Visible = true
+    
+    end
+    
+    TakeOutButton.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(XJKOZZ_fake_script)()
+local function ZSVCMBT_fake_script() -- Notepad.Script 
+    local script = Instance.new('Script', Notepad)
+
+    NotepadButton = game.Players.colinsfur.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Tabs.Notepad
+    
+    NotepadGui = game.Players.colinsfur.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.NotepadGui
+    TakeOutGui = game.Players.colinsfur.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.TakeOutGui
+    DiningInGui = game.Players.colinsfur.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.DiningInGui
+    OptionsGui = game.Players.colinsfur.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.OptionsGui
+    
+    function lclick()
+        
+        TakeOutGui.Visible = false
+        DiningInGui.Visible = false
+        OptionsGui.Visible = false
+        NotepadGui.Visible = true
+        
+    end
+    
+    NotepadButton.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(ZSVCMBT_fake_script)()
+local function LBQS_fake_script() -- Options.Script 
+    local script = Instance.new('Script', Options)
+
+    OptionsButton = game.Players.colinsfur.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Tabs.Options
+    
+    NotepadGui = game.Players.colinsfur.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.NotepadGui
+    TakeOutGui = game.Players.colinsfur.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.TakeOutGui
+    DiningInGui = game.Players.colinsfur.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.DiningInGui
+    OptionsGui = game.Players.colinsfur.PlayerGui.UserInterface.SidebarFrames.Codes.Main.Items.OptionsGui
+    
+    function lclick()
+    
+        TakeOutGui.Visible = falsecolinsfur
+        DiningInGui.Visible = false
+        NotepadGui.Visible = false
+        OptionsGui.Visible = true
+    
+    end
+    
+    OptionsButton.MouseButton1Click:Connect(lclick)
+end
+coroutine.wrap(LBQS_fake_script)()
+
+wait(.2)
+
+TwitterButton = game.Players.colinsfur.PlayerGui.UserInterface.Sidebar.Codes
+
+CodeFrame = game.Players.colinsfur.PlayerGui.UserInterface.SidebarFrames.Codes
+
+local function CKKG_fake_script()
+    local script = Instance.new('Script',game.Players.colinsfur.PlayerGui.UserInterface.Sidebar.Codes)
+
+    function lclick()
+        if  CodeFrame.Visible == true then
+            CodeFrame.Visible = false else
+            if CodeFrame.Visible == false then
+                CodeFrame.Visible = true
+            end
+        end
+    end
+
+    TwitterButton.MouseButton1Click:Connect(lclick)
+
+end
+coroutine.wrap(CKKG_fake_script)()
